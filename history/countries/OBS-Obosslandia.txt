@@ -1,0 +1,16 @@
+capital = 1
+set_politics = {
+  ruling_party = neutrality
+  elections_allowed = no
+}
+create_country_leader = {
+  name = "Лютый"
+  desc = "POLITICS_LYUTIY_DESC"
+  picture = "GFX_portrait_generic"
+  expire = "1965.1.1"
+  ideology = despotism
+  traits = { }
+}
+add_ideas = oww_micro_armies
+set_stability = 0.45
+set_war_support = 0.55

@@ -1,0 +1,11 @@
+on_actions = {
+  on_war = { effect = { if = { limit = { tag = OBS } add_stability = -0.01 } } }
+  on_weekly_pulse = {
+    effect = {
+      if = {
+        limit = { tag = OBS has_war = yes }
+        country_event = { id = oww.10 }
+      }
+    }
+  }
+}

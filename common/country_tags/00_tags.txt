@@ -1,0 +1,6 @@
+OBS = "countries/OBS - Obosslandia.txt"
+KK8 = "countries/KK8 - Karatelny Korpus 8.txt"
+ANT = "countries/ANT - Antonia.txt"
+NRD = "countries/NRD - Donsk Republic.txt"
+OBK = "countries/OBK - OBKA.txt"
+GNV = "countries/GNV - Orden Gnev.txt"
