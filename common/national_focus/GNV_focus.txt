@@ -1,0 +1,4 @@
+focus_tree = { id = GNV_focus country = { factor = 0 modifier = { add = 100 tag = GNV } }
+ focus = { id = GNV_found_order x = 5 y = 0 cost = 6 icon = GFX_goal_generic_forceful_treaty completion_reward = { add_ideas = oww_micro_armies } }
+ focus = { id = GNV_rnk4_drones prerequisite = { focus = GNV_found_order } x = 5 y = 1 cost = 8 icon = GFX_goal_generic_scientific_exchange completion_reward = { add_ideas = oww_drone_supremacy } }
+}

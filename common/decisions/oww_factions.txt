@@ -1,0 +1,8 @@
+country_decisions = {
+  oww_factions = {
+    icon = generic_allies_build_infantry
+    oww_form_svd = { visible = { tag = OBS } available = { has_war = no } complete_effect = { add_political_power = -50 add_stability = 0.03 } }
+    oww_form_axis_vozmezdiya = { visible = { tag = GNV } available = { has_war = no } complete_effect = { add_war_support = 0.05 } }
+    oww_form_nrd_kk8_coalition = { visible = { OR = { tag = NRD tag = KK8 } } available = { has_war = no } complete_effect = { add_war_support = 0.05 } }
+  }
+}

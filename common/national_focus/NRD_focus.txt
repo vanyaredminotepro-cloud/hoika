@@ -1,0 +1,5 @@
+focus_tree = { id = NRD_focus country = { factor = 0 modifier = { add = 100 tag = NRD } }
+ focus = { id = NRD_independence_first x = 4 y = 0 cost = 6 icon = GFX_goal_generic_political_pressure completion_reward = { add_political_power = 100 } }
+ focus = { id = NRD_federation_with_kk8 prerequisite = { focus = NRD_independence_first } x = 4 y = 1 cost = 7 icon = GFX_goal_generic_allies_build_infantry completion_reward = { add_opinion_modifier = { target = KK8 modifier = alliance } } }
+ focus = { id = NRD_return_to_obs prerequisite = { focus = NRD_independence_first } x = 6 y = 1 cost = 7 icon = GFX_goal_generic_improve_relations completion_reward = { add_opinion_modifier = { target = OBS modifier = alliance } } }
+}
