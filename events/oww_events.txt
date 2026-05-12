@@ -1,0 +1,24 @@
+add_namespace = oww
+
+country_event = {
+  id = oww.10
+  title = oww.10.t
+  desc = oww.10.d
+  is_triggered_only = yes
+  option = {
+    name = oww.10.a
+    add_political_power = 5
+  }
+}
+
+country_event = {
+  id = oww.100
+  title = oww.100.t
+  desc = oww.100.d
+  is_triggered_only = yes
+  option = {
+    name = oww.100.a
+    add_stability = -0.05
+    add_war_support = -0.05
+  }
+}

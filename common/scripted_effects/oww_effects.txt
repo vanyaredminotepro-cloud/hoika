@@ -1,0 +1,6 @@
+oww_apply_micro_army_model = {
+  add_ideas = oww_micro_armies
+}
+oww_start_rollback = {
+  country_event = { id = oww.100 days = 1 }
+}

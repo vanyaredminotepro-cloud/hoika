@@ -1,0 +1,4 @@
+capital = 3
+set_politics = { ruling_party = neutrality elections_allowed = no }
+set_stability = 0.50
+set_war_support = 0.50
