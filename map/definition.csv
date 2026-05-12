@@ -1,0 +1,12 @@
+0;0;0;0;land;false;unknown;0
+1;138;43;226;land;true;hills;1 # OBS core
+2;80;80;80;land;true;urban;1 # KK8
+3;180;80;50;land;true;plains;1 # ANT
+4;120;40;40;land;true;hills;1 # NRD
+5;50;140;160;land;true;plains;1 # OBK
+6;30;30;30;land;true;forest;1 # GNV
+7;240;230;70;land;true;plains;1 # FIL
+8;20;150;80;land;true;forest;1 # SRL
+9;60;100;180;land;true;urban;1 # ZIT
+10;20;20;150;sea;false;ocean;1 # West sea
+11;30;120;200;sea;false;ocean;1 # Inner sea

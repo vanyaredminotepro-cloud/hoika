@@ -1,0 +1,4 @@
+focus_tree = { id = ILG_focus country = { factor = 0 modifier = { add = 100 tag = ILG } }
+ focus = { id = ILG_drone_cults x = 5 y = 0 cost = 5 icon = GFX_goal_generic_scientific_exchange completion_reward = { add_ideas = oww_drone_supremacy } }
+ focus = { id = ILG_link_vto prerequisite = { focus = ILG_drone_cults } x = 5 y = 1 cost = 5 icon = GFX_goal_generic_improve_relations completion_reward = { add_opinion_modifier = { target = VTO modifier = alliance } } }
+}

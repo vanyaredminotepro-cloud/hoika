@@ -1,0 +1,18 @@
+ideas = {
+  country = {
+    oww_drone_supremacy = {
+      picture = idea_air_production
+      modifier = {
+        air_mission_efficiency = 0.1
+        army_attack_factor = 0.05
+      }
+    }
+    oww_fast_navy = {
+      picture = idea_navy_doctrine
+      modifier = {
+        navy_max_range_factor = 0.1
+        naval_speed_factor = 0.15
+      }
+    }
+  }
+}
