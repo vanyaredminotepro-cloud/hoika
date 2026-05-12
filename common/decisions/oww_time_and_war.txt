@@ -1,0 +1,23 @@
+country_decisions = {
+  oww_global_controls = {
+    icon = generic_decision
+    oww_lock_slow_time = {
+      icon = generic_propaganda
+      visible = { always = yes }
+      available = { always = yes }
+      complete_effect = {
+        add_political_power = -10
+        add_stability = 0.01
+      }
+    }
+    oww_raise_paranoia = {
+      icon = generic_prepare_for_war
+      visible = { tag = OBS }
+      available = { has_war = yes }
+      complete_effect = {
+        add_ideas = oww_lyutiy_paranoia_high
+        add_war_support = 0.02
+      }
+    }
+  }
+}

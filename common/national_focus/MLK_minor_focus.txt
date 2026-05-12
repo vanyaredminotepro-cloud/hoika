@@ -1,0 +1,4 @@
+focus_tree = { id = MLK_focus country = { factor = 0 modifier = { add = 100 tag = MLK } }
+ focus = { id = MLK_join_gnev x = 5 y = 0 cost = 5 icon = GFX_goal_generic_political_pressure completion_reward = { add_opinion_modifier = { target = GNV modifier = alliance } } }
+ focus = { id = MLK_micro_army_school prerequisite = { focus = MLK_join_gnev } x = 5 y = 1 cost = 6 icon = GFX_goal_generic_construct_military completion_reward = { add_ideas = oww_micro_armies } }
+}

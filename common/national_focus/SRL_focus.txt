@@ -1,0 +1,4 @@
+focus_tree = { id = SRL_focus country = { factor = 0 modifier = { add = 100 tag = SRL } }
+ focus = { id = SRL_militarize_border x = 5 y = 0 cost = 5 icon = GFX_goal_generic_construct_military completion_reward = { add_war_support = 0.08 } }
+ focus = { id = SRL_rka_conflict prerequisite = { focus = SRL_militarize_border } x = 5 y = 1 cost = 8 icon = GFX_goal_generic_major_war completion_reward = { country_event = { id = oww.210 days = 1 } } }
+}
