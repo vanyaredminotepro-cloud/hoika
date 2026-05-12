@@ -1,0 +1,5 @@
+adjacencies = {
+  # from;to;type;through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;comment
+  { 12 21 sea 0 0 0 0 0 oww_strait_obs_srl "OBS-SRL coastal transfer" }
+  { 15 18 sea 0 0 0 0 0 oww_strait_kk8_fil "KK8-FIL naval lane" }
+}

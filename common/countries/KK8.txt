@@ -1,0 +1,2 @@
+graphical_culture = eastern_european_gfx
+color = { 80 80 80 }

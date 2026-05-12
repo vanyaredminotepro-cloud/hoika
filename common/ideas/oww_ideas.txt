@@ -1,0 +1,30 @@
+ideas = {
+  country = {
+    oww_micro_armies = {
+      picture = idea_generic_army
+      modifier = {
+        division_attack_factor = 0.15
+        division_defense_factor = -0.05
+        recruitable_population_factor = -0.30
+      }
+    }
+    oww_kubrill_economy = {
+      picture = idea_generic_consumer_goods
+      modifier = {
+        stability_factor = 0.05
+        construction_speed_factor = 0.08
+      }
+    }
+    oww_lyutiy_paranoia_low = {
+      picture = idea_political_reform
+      modifier = { army_org_factor = 0.03 }
+    }
+    oww_lyutiy_paranoia_high = {
+      picture = idea_political_reform
+      modifier = {
+        division_attack_factor = 0.2
+        stability_factor = -0.1
+      }
+    }
+  }
+}
