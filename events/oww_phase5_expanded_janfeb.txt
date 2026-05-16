@@ -1,0 +1,19 @@
+add_namespace = oww_p5x
+
+country_event = {
+  id = oww_p5x.1
+  title = oww_p5x.1.t
+  desc = oww_p5x.1.d
+  picture = GFX_report_event_generic_air
+  is_triggered_only = yes
+  option = { name = oww_p5x.1.a }
+}
+
+country_event = {
+  id = oww_p5x.2
+  title = oww_p5x.2.t
+  desc = oww_p5x.2.d
+  picture = GFX_report_event_generic_city
+  is_triggered_only = yes
+  option = { name = oww_p5x.2.a }
+}

@@ -1,0 +1,9 @@
+ideas = {
+  country = {
+    oww_p5_essr_joint_command = { picture = idea_generic_military_staff modifier = { planning_speed = 0.08 division_recovery_rate = 0.05 } }
+    oww_p5_oos_legal_pressure = { picture = idea_political_reform modifier = { stability_factor = -0.04 war_support_factor = 0.03 } }
+    oww_p5_plarium_exit_shock = { picture = idea_generic_intelligence modifier = { consumer_goods_factor = 0.03 production_speed_buildings_factor = -0.05 } }
+    oww_p5_morozhlend_cultural_export = { picture = idea_generic_propaganda modifier = { stability_factor = 0.05 weekly_stability = 0.01 } }
+    oww_p5_hostage_crisis_response = { picture = idea_generic_internal_security modifier = { political_power_gain = -0.1 division_defense_factor = 0.06 } }
+  }
+}

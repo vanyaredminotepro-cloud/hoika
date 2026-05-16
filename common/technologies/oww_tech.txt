@@ -44,3 +44,26 @@ technology = {
   categories = { rocketry }
   prerequisites = { oww_drone_heli_1 }
 }
+technology = {
+  id = oww_counter_drone_grid
+  area = electronics
+  start_year = 2024
+  research_cost = 2
+  categories = { infantry }
+  prerequisites = { oww_drone_heli_1 }
+}
+technology = {
+  id = oww_ms7283_ballistics
+  area = rocketry
+  start_year = 2024
+  research_cost = 3
+  categories = { rocketry }
+  prerequisites = { oww_oyat_program }
+}
+technology = {
+  id = oww_crisis_medicine_protocol
+  area = industry
+  start_year = 2024
+  research_cost = 2
+  categories = { industry }
+}

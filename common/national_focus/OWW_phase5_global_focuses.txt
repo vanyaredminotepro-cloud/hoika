@@ -1,0 +1,12 @@
+focus_tree = {
+  id = OWW_phase5_global_focuses
+  country = { factor = 1 }
+
+  focus = { id = OWW_p5_emergency_mobilization icon = GFX_goal_generic_major_war x = 5 y = 0 cost = 5 }
+  focus = { id = OWW_p5_drone_industrialization icon = GFX_goal_generic_construct_mil_factory x = 5 y = 1 cost = 5 prerequisite = { focus = OWW_p5_emergency_mobilization } }
+  focus = { id = OWW_p5_anti_terror_protocols icon = GFX_goal_generic_police_crackdown x = 3 y = 1 cost = 5 prerequisite = { focus = OWW_p5_emergency_mobilization } }
+  focus = { id = OWW_p5_humanitarian_corridors icon = GFX_goal_generic_improve_relations x = 7 y = 1 cost = 5 prerequisite = { focus = OWW_p5_emergency_mobilization } }
+  focus = { id = OWW_p5_sanctions_engine icon = GFX_goal_generic_trade x = 5 y = 2 cost = 5 prerequisite = { focus = OWW_p5_drone_industrialization } }
+  focus = { id = OWW_p5_fortified_borderline icon = GFX_goal_generic_construct_civ_factory x = 3 y = 2 cost = 5 prerequisite = { focus = OWW_p5_anti_terror_protocols } }
+  focus = { id = OWW_p5_missile_rain_doctrine icon = GFX_goal_generic_scientific_exchange x = 7 y = 2 cost = 5 prerequisite = { focus = OWW_p5_humanitarian_corridors } }
+}
