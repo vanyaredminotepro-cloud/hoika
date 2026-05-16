@@ -1,0 +1,5 @@
+capital = 2
+set_politics = { ruling_party = neutrality elections_allowed = no }
+set_stability = 0.40
+set_war_support = 0.60
+add_ideas = oww_micro_armies

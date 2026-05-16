@@ -1,0 +1,17 @@
+focus_tree = {
+  id = ANT_focus
+  country = { factor = 0 modifier = { add = 100 tag = ANT } }
+  focus = {
+    id = ANT_pax_antoniana
+    x = 6 y = 0 cost = 6
+    icon = GFX_goal_generic_major_war
+    completion_reward = { add_war_support = 0.1 }
+  }
+  focus = {
+    id = ANT_emi_rockets
+    prerequisite = { focus = ANT_pax_antoniana }
+    x = 6 y = 1 cost = 8
+    icon = GFX_goal_generic_rocket
+    completion_reward = { add_political_power = 80 }
+  }
+}

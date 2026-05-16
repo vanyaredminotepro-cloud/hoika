@@ -1,0 +1,33 @@
+country_decisions = {
+  oww_newswire_arc = {
+    icon = generic_decision
+
+    oww_trigger_kubrill_crisis = {
+      icon = generic_consumer_goods
+      visible = { tag = OBS }
+      available = { always = yes }
+      complete_effect = { country_event = { id = oww_news.1 days = 1 } }
+    }
+
+    oww_trigger_anti_lyutiy_mutiny = {
+      icon = generic_major_war
+      visible = { tag = OBS }
+      available = { has_war = yes }
+      complete_effect = { country_event = { id = oww_news.2 days = 1 } }
+    }
+
+    oww_trigger_rnk4_alert = {
+      icon = generic_air_fighter
+      visible = { OR = { tag = OBS tag = OBK tag = MIN tag = ANT } }
+      available = { always = yes }
+      complete_effect = { country_event = { id = oww_news.4 days = 1 } }
+    }
+
+    oww_trigger_kml_collapse = {
+      icon = generic_prepare_for_war
+      visible = { OR = { tag = KML tag = VTO tag = ILG } }
+      available = { always = yes }
+      complete_effect = { country_event = { id = oww_news.5 days = 1 } }
+    }
+  }
+}
