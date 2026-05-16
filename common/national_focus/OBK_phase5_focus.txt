@@ -1,0 +1,7 @@
+focus_tree = {
+ id = OBK_phase5_focus
+ country = { factor = 0 modifier = { add = 100 tag = OBK } }
+ focus = { id = OBK_morozhlend_expansion x = 6 y = 0 cost = 5 icon = GFX_goal_generic_construct_civilian completion_reward = { add_ideas = oww_morozhlend_soft_power } }
+ focus = { id = OBK_plarium_contracts prerequisite = { focus = OBK_morozhlend_expansion } x = 6 y = 1 cost = 6 icon = GFX_goal_generic_intelligence_exchange completion_reward = { add_ideas = oww_plarium_internal_security } }
+ focus = { id = OBK_union_brokerage prerequisite = { focus = OBK_plarium_contracts } x = 6 y = 2 cost = 7 icon = GFX_goal_generic_diplomacy completion_reward = { add_stability = 0.04 } }
+}

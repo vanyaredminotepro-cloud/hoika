@@ -1,0 +1,4 @@
+add_namespace = oww
+country_event = { id = oww.200 title = oww.200.t desc = oww.200.d is_triggered_only = yes option = { name = oww.200.a add_war_support = 0.1 } }
+country_event = { id = oww.210 title = oww.210.t desc = oww.210.d is_triggered_only = yes option = { name = oww.210.a add_stability = -0.05 } }
+country_event = { id = oww.220 title = oww.220.t desc = oww.220.d is_triggered_only = yes option = { name = oww.220.a add_political_power = 50 } }

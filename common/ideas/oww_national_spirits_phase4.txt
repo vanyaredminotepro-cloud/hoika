@@ -1,0 +1,38 @@
+ideas = {
+  country = {
+    oww_obs_fourth_mutiny = {
+      picture = idea_political_reform
+      allowed = { original_tag = OBS }
+      modifier = {
+        stability_factor = -0.15
+        war_support_factor = 0.12
+        weekly_manpower = 50
+      }
+    }
+    oww_ss_entor_network = {
+      picture = idea_resistance
+      allowed = { OR = { original_tag = SSE original_tag = ILG } }
+      modifier = {
+        resistance_target = 0.08
+        enemy_operative_capture_chance_factor = -0.2
+        army_org_factor = 0.05
+      }
+    }
+    oww_ant_war_machine = {
+      picture = idea_war_production
+      allowed = { original_tag = ANT }
+      modifier = {
+        production_factory_efficiency_gain_factor = 0.1
+        army_attack_factor = 0.08
+      }
+    }
+    oww_fos_humanitarian_mediator = {
+      picture = idea_generic_diplomacy
+      allowed = { original_tag = FOS }
+      modifier = {
+        improve_relation_modifier = 0.3
+        stability_factor = 0.05
+      }
+    }
+  }
+}

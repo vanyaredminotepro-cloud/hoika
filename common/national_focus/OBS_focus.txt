@@ -1,0 +1,25 @@
+focus_tree = {
+  id = OBS_focus
+  country = { factor = 0 modifier = { add = 100 tag = OBS } }
+
+  focus = {
+    id = OBS_secure_command
+    x = 5 y = 0 cost = 5
+    icon = GFX_goal_generic_political_reform
+    completion_reward = {
+      add_political_power = 120
+      add_ideas = oww_lyutiy_paranoia_low
+    }
+  }
+
+  focus = {
+    id = OBS_oyat_program
+    prerequisite = { focus = OBS_secure_command }
+    x = 5 y = 1 cost = 8
+    icon = GFX_goal_generic_scientific_exchange
+    completion_reward = {
+      add_war_support = 0.05
+      add_ideas = oww_lyutiy_paranoia_high
+    }
+  }
+}

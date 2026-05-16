@@ -1,0 +1,25 @@
+focus_tree = {
+  id = KK8_focus
+  country = { factor = 0 modifier = { add = 100 tag = KK8 } }
+
+  focus = {
+    id = KK8_underground_shipyards
+    x = 5 y = 0 cost = 6
+    icon = GFX_goal_generic_construct_mil_factory
+    completion_reward = {
+      add_political_power = 75
+      add_war_support = 0.05
+    }
+  }
+
+  focus = {
+    id = KK8_bio_program
+    prerequisite = { focus = KK8_underground_shipyards }
+    x = 5 y = 1 cost = 8
+    icon = GFX_goal_generic_dangerous_deal
+    completion_reward = {
+      add_stability = -0.03
+      add_war_support = 0.08
+    }
+  }
+}

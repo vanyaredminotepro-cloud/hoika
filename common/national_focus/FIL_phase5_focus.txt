@@ -1,0 +1,7 @@
+focus_tree = {
+ id = FIL_phase5_focus
+ country = { factor = 0 modifier = { add = 100 tag = FIL } }
+ focus = { id = FIL_total_readiness x = 3 y = 0 cost = 6 icon = GFX_goal_generic_construct_military completion_reward = { add_war_support = 0.07 } }
+ focus = { id = FIL_reform_high_command prerequisite = { focus = FIL_total_readiness } x = 3 y = 1 cost = 7 icon = GFX_goal_generic_political_reform completion_reward = { add_political_power = 80 } }
+ focus = { id = FIL_strategic_front_shift prerequisite = { focus = FIL_reform_high_command } x = 3 y = 2 cost = 7 icon = GFX_goal_generic_major_war completion_reward = { add_ideas = oww_eesr_war_coordination } }
+}

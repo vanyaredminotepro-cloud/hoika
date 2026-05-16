@@ -1,0 +1,16 @@
+ideas = {
+ country = {
+  oww_morozhlend_soft_power = {
+   picture = idea_generic_consumer_goods
+   modifier = { stability_factor = 0.04 consumer_goods_factor = -0.03 }
+  }
+  oww_plarium_internal_security = {
+   picture = idea_military_police
+   modifier = { resistance_target = -0.05 compliance_gain = 0.03 }
+  }
+  oww_eesr_war_coordination = {
+   picture = idea_allies
+   modifier = { planning_speed = 0.08 max_planning = 0.08 }
+  }
+ }
+}

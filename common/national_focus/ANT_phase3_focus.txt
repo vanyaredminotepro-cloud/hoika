@@ -1,0 +1,7 @@
+focus_tree = {
+ id = ANT_phase3_focus
+ country = { factor = 0 modifier = { add = 100 tag = ANT } }
+ focus = { id = ANT_war_tiglaniya x = 1 y = 0 cost = 6 icon = GFX_goal_generic_major_war completion_reward = { country_event = { id = oww_p3.2 days = 1 } } }
+ focus = { id = ANT_war_sererednya prerequisite = { focus = ANT_war_tiglaniya } x = 1 y = 1 cost = 7 icon = GFX_goal_generic_occupy_states completion_reward = { add_war_support = 0.06 } }
+ focus = { id = ANT_war_alkabad_return prerequisite = { focus = ANT_war_sererednya } x = 1 y = 2 cost = 8 icon = GFX_goal_generic_military_sphere completion_reward = { add_political_power = 90 } }
+}

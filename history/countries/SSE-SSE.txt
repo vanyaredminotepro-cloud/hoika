@@ -1,0 +1,5 @@
+capital = 1
+set_politics = { ruling_party = communism elections_allowed = no }
+set_stability = 0.35
+set_war_support = 0.70
+add_ideas = oww_ss_entor_network

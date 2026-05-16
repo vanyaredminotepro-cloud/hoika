@@ -1,0 +1,42 @@
+add_namespace = oww_p1
+
+# Phase 1: 2023-10-28 to 2023-11-21 (from user-validated newswire window)
+country_event = {
+  id = oww_p1.1
+  title = oww_p1.1.t
+  desc = oww_p1.1.d
+  is_triggered_only = yes
+  option = { name = oww_p1.1.a add_political_power = 25 }
+}
+
+country_event = {
+  id = oww_p1.2
+  title = oww_p1.2.t
+  desc = oww_p1.2.d
+  is_triggered_only = yes
+  option = { name = oww_p1.2.a add_ideas = oww_kubrill_economy }
+}
+
+country_event = {
+  id = oww_p1.3
+  title = oww_p1.3.t
+  desc = oww_p1.3.d
+  is_triggered_only = yes
+  option = { name = oww_p1.3.a add_war_support = 0.04 }
+}
+
+country_event = {
+  id = oww_p1.4
+  title = oww_p1.4.t
+  desc = oww_p1.4.d
+  is_triggered_only = yes
+  option = { name = oww_p1.4.a add_stability = -0.04 }
+}
+
+country_event = {
+  id = oww_p1.5
+  title = oww_p1.5.t
+  desc = oww_p1.5.d
+  is_triggered_only = yes
+  option = { name = oww_p1.5.a add_stability = 0.03 }
+}

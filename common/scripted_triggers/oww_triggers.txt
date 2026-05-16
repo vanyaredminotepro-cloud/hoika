@@ -1,0 +1,4 @@
+oww_major_stalemate_trigger = {
+  has_war = yes
+  num_days_in_war > 200
+}

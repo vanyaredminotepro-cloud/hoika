@@ -1,0 +1,40 @@
+country_decisions = {
+  oww_phase1_timeline = {
+    icon = generic_decision
+
+    oww_p1_step_1_2023_10_28 = {
+      icon = generic_political_reform
+      visible = { tag = OBS }
+      available = { date > 2023.10.27 date < 2023.11.22 }
+      complete_effect = { country_event = { id = oww_p1.1 days = 1 } }
+    }
+
+    oww_p1_step_2_2023_10_31 = {
+      icon = generic_consumer_goods
+      visible = { OR = { tag = OBS tag = OBK } }
+      available = { date > 2023.10.30 date < 2023.11.22 }
+      complete_effect = { country_event = { id = oww_p1.2 days = 1 } }
+    }
+
+    oww_p1_step_3_2023_11_05 = {
+      icon = generic_air_fighter
+      visible = { OR = { tag = OBK tag = FIL tag = ZIT } }
+      available = { date > 2023.11.04 date < 2023.11.22 }
+      complete_effect = { country_event = { id = oww_p1.3 days = 1 } }
+    }
+
+    oww_p1_step_4_2023_11_12 = {
+      icon = generic_prepare_for_war
+      visible = { OR = { tag = MIN tag = NOV tag = FIL } }
+      available = { date > 2023.11.11 date < 2023.11.22 }
+      complete_effect = { country_event = { id = oww_p1.4 days = 1 } }
+    }
+
+    oww_p1_step_5_2023_11_21 = {
+      icon = generic_peace
+      visible = { always = yes }
+      available = { date > 2023.11.20 date < 2023.11.30 }
+      complete_effect = { country_event = { id = oww_p1.5 days = 1 } }
+    }
+  }
+}
