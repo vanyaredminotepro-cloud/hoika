@@ -2,7 +2,7 @@ bookmarks = {
   bookmark = {
     name = "OWW_BOOKMARK_2023"
     desc = "OWW_BOOKMARK_2023_DESC"
-    date = 2023.10.20
+    date = 2023.10.27
     default = yes
 
     country = { tag = OBS }

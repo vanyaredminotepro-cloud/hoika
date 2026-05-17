@@ -61,3 +61,7 @@ country_event = {
     add_to_faction = GNV
   }
 }
+
+country_event = { id = oww.600 title = oww.600.t desc = oww.600.d is_triggered_only = yes option = { name = oww.600.a add_stability = -0.01 } }
+country_event = { id = oww.601 title = oww.601.t desc = oww.601.d is_triggered_only = yes option = { name = oww.601.a add_war_support = 0.01 } }
+country_event = { id = oww.610 title = oww.610.t desc = oww.610.d is_triggered_only = yes option = { name = oww.610.a add_war_support = 0.05 add_political_power = -30 } }
