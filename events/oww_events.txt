@@ -22,3 +22,42 @@ country_event = {
     add_war_support = -0.05
   }
 }
+
+
+country_event = {
+  id = oww.501
+  title = oww.501.t
+  desc = oww.501.d
+  is_triggered_only = yes
+  option = {
+    name = oww.501.a
+    add_war_support = 0.03
+    add_ideas = oww_herosima_shadow_contacts
+  }
+}
+
+country_event = {
+  id = oww.520
+  title = oww.520.t
+  desc = oww.520.d
+  is_triggered_only = yes
+  option = {
+    name = oww.520.a
+    set_politics = { ruling_party = neutrality elections_allowed = no }
+    add_ideas = oww_timuras_madness
+    every_other_country = { limit = { exists = yes NOT = { tag = ROOT } } add_war_support = 0.01 }
+  }
+}
+
+country_event = {
+  id = oww.530
+  title = oww.530.t
+  desc = oww.530.d
+  is_triggered_only = yes
+  option = {
+    name = oww.530.a
+    if = { limit = { NOT = { exists = GNV } } release = GNV }
+    create_faction = "ORDER_GNEV"
+    add_to_faction = GNV
+  }
+}

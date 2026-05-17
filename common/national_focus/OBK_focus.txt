@@ -2,24 +2,10 @@ focus_tree = {
   id = OBK_focus
   country = { factor = 0 modifier = { add = 100 tag = OBK } }
 
-  focus = {
-    id = OBK_currency_union
-    x = 5 y = 0 cost = 5
-    icon = GFX_goal_generic_trade
-    completion_reward = {
-      add_ideas = oww_kubrill_economy
-      add_stability = 0.03
-    }
-  }
+  focus = { id = OBK_currency_union x = 5 y = 0 cost = 5 icon = GFX_goal_generic_trade completion_reward = { add_ideas = oww_kubrill_economy add_stability = 0.03 } }
+  focus = { id = OBK_export_kubrill prerequisite = { focus = OBK_currency_union } x = 5 y = 1 cost = 6 icon = GFX_goal_generic_improve_relations completion_reward = { add_political_power = 60 add_stability = 0.02 } }
 
-  focus = {
-    id = OBK_export_kubrill
-    prerequisite = { focus = OBK_currency_union }
-    x = 5 y = 1 cost = 6
-    icon = GFX_goal_generic_improve_relations
-    completion_reward = {
-      add_political_power = 60
-      add_stability = 0.02
-    }
-  }
+  focus = { id = OBK_timuras_revolution prerequisite = { focus = OBK_export_kubrill } x = 8 y = 2 cost = 10 icon = GFX_goal_generic_propaganda completion_reward = { country_event = { id = oww.520 days = 1 } } }
+  focus = { id = OBK_elite_four_capital prerequisite = { focus = OBK_timuras_revolution } x = 8 y = 3 cost = 5 icon = GFX_goal_generic_construct_civilian completion_reward = { add_stability = -0.05 add_political_power = 100 } }
+  focus = { id = OBK_give_me_carrot prerequisite = { focus = OBK_elite_four_capital } x = 8 y = 4 cost = 5 icon = GFX_goal_generic_improve_relations completion_reward = { add_political_power = -50 add_war_support = -0.05 } }
 }
