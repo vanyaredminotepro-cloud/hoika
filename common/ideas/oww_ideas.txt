@@ -28,3 +28,25 @@ ideas = {
     }
   }
 }
+
+ideas = {
+  country = {
+    oww_herosima_shadow_contacts = {
+      picture = idea_generic_intelligence
+      allowed = { always = yes }
+      modifier = {
+        operative_slot = 1
+        stability_factor = -0.02
+      }
+    }
+    oww_timuras_madness = {
+      picture = idea_political_commissar
+      allowed = { always = yes }
+      modifier = {
+        stability_factor = -0.15
+        war_support_factor = 0.1
+        consumer_goods_factor = 0.1
+      }
+    }
+  }
+}

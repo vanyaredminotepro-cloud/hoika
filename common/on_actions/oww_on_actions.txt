@@ -2,6 +2,8 @@ on_actions = {
   on_war = { effect = { if = { limit = { tag = OBS } add_stability = -0.01 } } }
   on_weekly_pulse = {
     effect = {
+      random = { chance = 3 country_event = { id = oww.600 } }
+      if = { limit = { tag = MLK has_country_flag = mlk_can_form_order_gnev } random = { chance = 5 country_event = { id = oww.601 } } }
       if = {
         limit = { tag = OBS has_war = yes }
         country_event = { id = oww.10 }

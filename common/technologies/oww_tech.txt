@@ -67,3 +67,7 @@ technology = {
   research_cost = 2
   categories = { industry }
 }
+
+technology = { id = oww_heavy_uav_1 area = electronics start_year = 2024 research_cost = 2 categories = { infantry } prerequisites = { oww_drone_heli_1 } }
+technology = { id = oww_landing_boat_1 area = naval start_year = 2024 research_cost = 2 categories = { naval } prerequisites = { oww_fast_boat_1 } }
+technology = { id = oww_soft_missiles_1 area = rocketry start_year = 2024 research_cost = 2 categories = { rocketry } prerequisites = { oww_oyat_program } }

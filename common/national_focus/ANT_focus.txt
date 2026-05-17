@@ -14,4 +14,6 @@ focus_tree = {
     icon = GFX_goal_generic_rocket
     completion_reward = { add_political_power = 80 }
   }
+  focus = { id = ANT_fifth_mutiny prerequisite = { focus = ANT_emi_rockets } x = 9 y = 3 cost = 8 icon = GFX_goal_generic_major_war completion_reward = { country_event = { id = oww.610 days = 1 } } }
+  focus = { id = ANT_industry_warline prerequisite = { focus = ANT_fifth_mutiny } x = 9 y = 4 cost = 8 icon = GFX_goal_generic_construct_civilian completion_reward = { add_stability = -0.02 add_war_support = 0.06 } }
 }

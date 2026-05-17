@@ -16,5 +16,15 @@ country_decisions = {
       visible = { always = yes }
       complete_effect = { oww_start_rollback = yes }
     }
+    oww_form_order_gnev_from_mlk = {
+      icon = generic_political_pressure
+      available = { has_country_flag = mlk_can_form_order_gnev }
+      visible = { tag = MLK }
+      complete_effect = {
+        add_political_power = -75
+        country_event = { id = oww.530 days = 1 }
+      }
+    }
   }
 }
+
