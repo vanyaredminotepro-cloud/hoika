@@ -1,0 +1,8 @@
+country_decisions = {
+  oww_alternative_outcomes = {
+    icon = generic_decision
+    oww_alt_force_peace_talks = { icon = generic_diplomacy visible = { always = yes } available = { political_power > 50 } complete_effect = { add_political_power = -50 add_stability = 0.02 } }
+    oww_alt_escalate_conflict = { icon = generic_major_war visible = { always = yes } available = { war_support > 0.2 } complete_effect = { add_war_support = 0.03 add_stability = -0.02 } }
+    oww_alt_secret_operation = { icon = generic_provoke_war visible = { always = yes } available = { has_idea = oww_micro_armies } complete_effect = { country_event = { id = oww_news_hooks.4 } } }
+  }
+}

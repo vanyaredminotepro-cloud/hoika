@@ -1,0 +1,5 @@
+add_namespace = oww_news_hooks
+country_event = { id = oww_news_hooks.1 title = oww_news_hooks.1.t desc = oww_news_hooks.1.d is_triggered_only = yes option = { name = oww_news_hooks.1.a } }
+country_event = { id = oww_news_hooks.2 title = oww_news_hooks.2.t desc = oww_news_hooks.2.d is_triggered_only = yes option = { name = oww_news_hooks.2.a } }
+country_event = { id = oww_news_hooks.3 title = oww_news_hooks.3.t desc = oww_news_hooks.3.d is_triggered_only = yes option = { name = oww_news_hooks.3.a } }
+country_event = { id = oww_news_hooks.4 title = oww_news_hooks.4.t desc = oww_news_hooks.4.d is_triggered_only = yes option = { name = oww_news_hooks.4.a add_stability = -0.01 add_war_support = 0.02 } }
