@@ -1,0 +1,10 @@
+country_decisions = {
+ oww_phase6_timeline = {
+  icon = generic_decision
+  oww_p6_2024_02_20 = { icon = generic_prepare_for_war visible = { always = yes } available = { date > 2024.02.19 date < 2024.03.14 } complete_effect = { country_event = { id = oww_p6.1 days = 1 } } }
+  oww_p6_2024_02_25 = { icon = generic_diplomacy visible = { OR = { tag = ARZ tag = OBS } } available = { date > 2024.02.24 date < 2024.03.14 } complete_effect = { country_event = { id = oww_p6.2 days = 1 } } }
+  oww_p6_2024_03_01 = { icon = generic_construct_military visible = { OR = { tag = FIL tag = ANT tag = SSE } } available = { date > 2024.02.29 date < 2024.03.14 } complete_effect = { country_event = { id = oww_p6.3 days = 1 } } }
+  oww_p6_2024_03_07 = { icon = generic_major_war visible = { always = yes } available = { date > 2024.03.06 date < 2024.03.14 } complete_effect = { country_event = { id = oww_p6.4 days = 1 } } }
+  oww_p6_2024_03_13 = { icon = generic_peace visible = { always = yes } available = { date > 2024.03.12 date < 2024.03.20 } complete_effect = { country_event = { id = oww_p6.5 days = 1 } } }
+ }
+}
