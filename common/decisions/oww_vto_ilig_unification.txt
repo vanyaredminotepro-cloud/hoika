@@ -1,0 +1,34 @@
+country_decisions = {
+  oww_vto_ilig_unification = {
+    icon = generic_political_reform
+    visible = { OR = { tag = VTO tag = ILG } }
+
+    oww_vto_ilig_declare_single_structure = {
+      icon = generic_diplomacy
+      available = { always = yes }
+      complete_effect = {
+        country_event = { id = oww_vto_ilig.1 days = 1 }
+        add_political_power = 30
+      }
+    }
+
+    oww_vto_ilig_unified_command = {
+      icon = generic_major_war
+      available = { has_completed_focus = VTO_rebuild_network }
+      complete_effect = {
+        add_war_support = 0.04
+        add_stability = -0.01
+        country_event = { id = oww_vto_ilig.2 days = 1 }
+      }
+    }
+
+    oww_vto_ilig_shadow_cells = {
+      icon = generic_provoke_war
+      available = { always = yes }
+      complete_effect = {
+        add_political_power = 20
+        country_event = { id = oww_vto_ilig.3 days = 1 }
+      }
+    }
+  }
+}

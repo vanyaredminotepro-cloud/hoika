@@ -1,0 +1,4 @@
+add_namespace = oww_vto_ilig
+country_event = { id = oww_vto_ilig.1 title = oww_vto_ilig.1.t desc = oww_vto_ilig.1.d is_triggered_only = yes option = { name = oww_vto_ilig.1.a } }
+country_event = { id = oww_vto_ilig.2 title = oww_vto_ilig.2.t desc = oww_vto_ilig.2.d is_triggered_only = yes option = { name = oww_vto_ilig.2.a } }
+country_event = { id = oww_vto_ilig.3 title = oww_vto_ilig.3.t desc = oww_vto_ilig.3.d is_triggered_only = yes option = { name = oww_vto_ilig.3.a } }
