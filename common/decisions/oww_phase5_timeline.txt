@@ -1,0 +1,26 @@
+country_decisions = {
+ oww_phase5_timeline = {
+  icon = generic_decision
+  oww_p5_2024_01_26 = { icon = generic_prepare_for_war visible = { always = yes } available = { date > 2024.01.25 date < 2024.02.21 } complete_effect = { country_event = { id = oww_p5.1 days = 1 } } }
+  oww_p5_2024_02_01 = { icon = generic_construct_military visible = { OR = { tag = ANT tag = FIL tag = SSE } } available = { date > 2024.01.31 date < 2024.02.21 } complete_effect = { country_event = { id = oww_p5.2 days = 1 } } }
+  oww_p5_2024_02_08 = { icon = generic_major_war visible = { always = yes } available = { date > 2024.02.07 date < 2024.02.21 } complete_effect = { country_event = { id = oww_p5.3 days = 1 } } }
+  oww_p5_2024_02_14 = { icon = generic_diplomacy visible = { OR = { tag = OBK tag = MIN tag = NOV } } available = { date > 2024.02.13 date < 2024.02.21 } complete_effect = { country_event = { id = oww_p5.4 days = 1 } } }
+  oww_p5_2024_02_20 = { icon = generic_peace visible = { always = yes } available = { date > 2024.02.19 date < 2024.03.01 } complete_effect = { country_event = { id = oww_p5.5 days = 1 } } }
+ }
+
+ oww_phase5_expanded_track = {
+  icon = generic_prepare_for_war
+  allowed = { original_tag = OBS }
+  visible = { always = yes }
+  oww_p5x_step_2024_02_20 = {
+    icon = generic_propaganda
+    available = { date > 2024.02.19 }
+    complete_effect = { country_event = { id = oww_p5x.1 } }
+  }
+  oww_p5x_easter_icecream = {
+    icon = generic_construct_civilian
+    available = { always = yes }
+    complete_effect = { country_event = { id = oww_p5x.2 } }
+  }
+ }
+}

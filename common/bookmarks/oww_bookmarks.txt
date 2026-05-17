@@ -1,0 +1,15 @@
+bookmarks = {
+  bookmark = {
+    name = "OWW_BOOKMARK_2023"
+    desc = "OWW_BOOKMARK_2023_DESC"
+    date = 2023.10.20
+    default = yes
+
+    country = { tag = OBS }
+    country = { tag = KK8 }
+    country = { tag = ANT }
+    country = { tag = NRD }
+    country = { tag = OBK }
+    country = { tag = GNV }
+  }
+}

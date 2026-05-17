@@ -1,0 +1,7 @@
+focus_tree = {
+ id = VTO_phase5_focus
+ country = { factor = 0 modifier = { add = 100 tag = VTO } }
+ focus = { id = VTO_rebuild_network x = 8 y = 0 cost = 6 icon = GFX_goal_generic_political_pressure completion_reward = { add_political_power = 70 } }
+ focus = { id = VTO_rnk4_doctrine prerequisite = { focus = VTO_rebuild_network } x = 8 y = 1 cost = 7 icon = GFX_goal_generic_scientific_exchange completion_reward = { add_ideas = oww_drone_supremacy } }
+ focus = { id = VTO_shadow_exports prerequisite = { focus = VTO_rnk4_doctrine } x = 8 y = 2 cost = 7 icon = GFX_goal_generic_trade completion_reward = { add_stability = 0.03 } }
+}

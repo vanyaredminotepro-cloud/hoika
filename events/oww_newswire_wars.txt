@@ -1,0 +1,64 @@
+add_namespace = oww_news
+
+# 1) Kubrill crisis inside OBS
+country_event = {
+  id = oww_news.1
+  title = oww_news.1.t
+  desc = oww_news.1.d
+  is_triggered_only = yes
+  option = {
+    name = oww_news.1.a
+    add_stability = -0.03
+    add_political_power = 35
+  }
+}
+
+# 2) Anti-Lyutiy mutiny starts
+country_event = {
+  id = oww_news.2
+  title = oww_news.2.t
+  desc = oww_news.2.d
+  is_triggered_only = yes
+  option = {
+    name = oww_news.2.a
+    add_war_support = 0.08
+    add_stability = -0.07
+  }
+}
+
+# 3) Mutiny fades, curfew state
+country_event = {
+  id = oww_news.3
+  title = oww_news.3.t
+  desc = oww_news.3.d
+  is_triggered_only = yes
+  option = {
+    name = oww_news.3.a
+    add_stability = 0.04
+  }
+}
+
+# 4) RNK-4 appears in neutral airspace
+country_event = {
+  id = oww_news.4
+  title = oww_news.4.t
+  desc = oww_news.4.d
+  is_triggered_only = yes
+  option = {
+    name = oww_news.4.a
+    add_war_support = 0.04
+  }
+}
+
+# 5) Kamolokhostan collapse under VTO ILIG
+country_event = {
+  id = oww_news.5
+  title = oww_news.5.t
+  desc = oww_news.5.d
+  is_triggered_only = yes
+  option = {
+    name = oww_news.5.a
+    add_political_power = -30
+    add_stability = -0.05
+  }
+}

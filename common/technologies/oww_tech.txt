@@ -1,0 +1,69 @@
+technology = {
+  id = oww_drone_recon_1
+  area = electronics
+  start_year = 2023
+  research_cost = 1
+  categories = { infantry }
+}
+technology = {
+  id = oww_drone_fpv_1
+  area = electronics
+  start_year = 2023
+  research_cost = 1
+  categories = { infantry }
+  prerequisites = { oww_drone_recon_1 }
+}
+technology = {
+  id = oww_drone_heli_1
+  area = electronics
+  start_year = 2024
+  research_cost = 1
+  categories = { infantry }
+  prerequisites = { oww_drone_fpv_1 }
+}
+technology = {
+  id = oww_fast_boat_1
+  area = naval
+  start_year = 2023
+  research_cost = 1
+  categories = { naval }
+}
+technology = {
+  id = oww_sub_drone_1
+  area = naval
+  start_year = 2024
+  research_cost = 1
+  categories = { naval }
+  prerequisites = { oww_fast_boat_1 }
+}
+technology = {
+  id = oww_oyat_program
+  area = rocketry
+  start_year = 2024
+  research_cost = 3
+  categories = { rocketry }
+  prerequisites = { oww_drone_heli_1 }
+}
+technology = {
+  id = oww_counter_drone_grid
+  area = electronics
+  start_year = 2024
+  research_cost = 2
+  categories = { infantry }
+  prerequisites = { oww_drone_heli_1 }
+}
+technology = {
+  id = oww_ms7283_ballistics
+  area = rocketry
+  start_year = 2024
+  research_cost = 3
+  categories = { rocketry }
+  prerequisites = { oww_oyat_program }
+}
+technology = {
+  id = oww_crisis_medicine_protocol
+  area = industry
+  start_year = 2024
+  research_cost = 2
+  categories = { industry }
+}

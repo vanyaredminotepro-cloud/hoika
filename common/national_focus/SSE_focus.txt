@@ -1,0 +1,21 @@
+focus_tree = {
+ id = SSE_focus
+ country = { factor = 0 modifier = { add = 100 tag = SSE } }
+ focus = {
+  id = SSE_protect_netrik_marches
+  x = 5 y = 0 cost = 6 icon = GFX_goal_generic_intelligence_exchange
+  completion_reward = { add_political_power = 80 }
+ }
+ focus = {
+  id = SSE_global_cells
+  prerequisite = { focus = SSE_protect_netrik_marches }
+  x = 5 y = 1 cost = 7 icon = GFX_goal_generic_propaganda
+  completion_reward = { add_ideas = oww_ss_entor_network }
+ }
+ focus = {
+  id = SSE_intervene_for_allies
+  prerequisite = { focus = SSE_global_cells }
+  x = 5 y = 2 cost = 8 icon = GFX_goal_generic_allies_build_infantry
+  completion_reward = { add_war_support = 0.06 }
+ }
+}

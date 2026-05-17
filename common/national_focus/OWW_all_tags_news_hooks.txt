@@ -1,0 +1,386 @@
+# Auto-generated global news-hook focus trees for all tags
+
+focus_tree = {
+  id = OWW_OBS_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = OBS } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = OBS_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = OBS_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = OBS_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = OBS_news_send_advisor_to_NOV } mutually_exclusive = { focus = OBS_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = OBS_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = OBS_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_KK8_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = KK8 } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = KK8_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = KK8_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = KK8_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = KK8_news_send_advisor_to_NOV } mutually_exclusive = { focus = KK8_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = KK8_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = KK8_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ANT_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ANT } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ANT_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ANT_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ANT_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ANT_news_send_advisor_to_NOV } mutually_exclusive = { focus = ANT_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ANT_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ANT_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_NRD_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = NRD } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = NRD_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = NRD_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = NRD_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = NRD_news_send_advisor_to_NOV } mutually_exclusive = { focus = NRD_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = NRD_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = NRD_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_OBK_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = OBK } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = OBK_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = OBK_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = OBK_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = OBK_news_send_advisor_to_NOV } mutually_exclusive = { focus = OBK_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = OBK_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = OBK_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_GNV_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = GNV } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = GNV_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = GNV_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = GNV_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = GNV_news_send_advisor_to_NOV } mutually_exclusive = { focus = GNV_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = GNV_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = GNV_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_SRL_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = SRL } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = SRL_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = SRL_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = SRL_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = SRL_news_send_advisor_to_NOV } mutually_exclusive = { focus = SRL_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = SRL_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = SRL_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_VIL_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = VIL } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = VIL_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = VIL_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = VIL_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = VIL_news_send_advisor_to_NOV } mutually_exclusive = { focus = VIL_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = VIL_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = VIL_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_MIN_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = MIN } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = MIN_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = MIN_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = MIN_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = MIN_news_send_advisor_to_NOV } mutually_exclusive = { focus = MIN_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = MIN_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = MIN_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ZIT_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ZIT } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ZIT_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ZIT_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ZIT_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ZIT_news_send_advisor_to_NOV } mutually_exclusive = { focus = ZIT_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ZIT_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ZIT_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_SEV_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = SEV } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = SEV_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = SEV_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = SEV_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = SEV_news_send_advisor_to_NOV } mutually_exclusive = { focus = SEV_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = SEV_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = SEV_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_NOV_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = NOV } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = NOV_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = NOV_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = NOV_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = NOV_news_send_advisor_to_NOV } mutually_exclusive = { focus = NOV_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = NOV_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = NOV_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_FIL_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = FIL } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = FIL_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = FIL_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = FIL_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = FIL_news_send_advisor_to_NOV } mutually_exclusive = { focus = FIL_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = FIL_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = FIL_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_RKA_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = RKA } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = RKA_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = RKA_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = RKA_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = RKA_news_send_advisor_to_NOV } mutually_exclusive = { focus = RKA_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = RKA_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = RKA_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_KLD_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = KLD } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = KLD_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = KLD_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = KLD_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = KLD_news_send_advisor_to_NOV } mutually_exclusive = { focus = KLD_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = KLD_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = KLD_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_MLK_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = MLK } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = MLK_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = MLK_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = MLK_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = MLK_news_send_advisor_to_NOV } mutually_exclusive = { focus = MLK_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = MLK_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = MLK_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_VTO_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = VTO } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = VTO_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = VTO_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = VTO_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = VTO_news_send_advisor_to_NOV } mutually_exclusive = { focus = VTO_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = VTO_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = VTO_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ILG_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ILG } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ILG_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ILG_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ILG_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ILG_news_send_advisor_to_NOV } mutually_exclusive = { focus = ILG_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ILG_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ILG_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_KML_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = KML } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = KML_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = KML_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = KML_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = KML_news_send_advisor_to_NOV } mutually_exclusive = { focus = KML_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = KML_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = KML_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_AHR_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = AHR } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = AHR_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = AHR_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = AHR_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = AHR_news_send_advisor_to_NOV } mutually_exclusive = { focus = AHR_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = AHR_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = AHR_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_URA_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = URA } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = URA_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = URA_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = URA_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = URA_news_send_advisor_to_NOV } mutually_exclusive = { focus = URA_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = URA_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = URA_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ASA_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ASA } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ASA_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ASA_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ASA_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ASA_news_send_advisor_to_NOV } mutually_exclusive = { focus = ASA_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ASA_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ASA_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_TIG_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = TIG } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = TIG_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = TIG_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = TIG_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = TIG_news_send_advisor_to_NOV } mutually_exclusive = { focus = TIG_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = TIG_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = TIG_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_RYS_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = RYS } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = RYS_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = RYS_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = RYS_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = RYS_news_send_advisor_to_NOV } mutually_exclusive = { focus = RYS_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = RYS_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = RYS_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_GER_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = GER } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = GER_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = GER_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = GER_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = GER_news_send_advisor_to_NOV } mutually_exclusive = { focus = GER_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = GER_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = GER_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_UVR_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = UVR } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = UVR_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = UVR_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = UVR_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = UVR_news_send_advisor_to_NOV } mutually_exclusive = { focus = UVR_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = UVR_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = UVR_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ZEM_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ZEM } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ZEM_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ZEM_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ZEM_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ZEM_news_send_advisor_to_NOV } mutually_exclusive = { focus = ZEM_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ZEM_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ZEM_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_SER_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = SER } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = SER_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = SER_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = SER_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = SER_news_send_advisor_to_NOV } mutually_exclusive = { focus = SER_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = SER_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = SER_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_FUF_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = FUF } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = FUF_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = FUF_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = FUF_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = FUF_news_send_advisor_to_NOV } mutually_exclusive = { focus = FUF_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = FUF_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = FUF_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_FOS_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = FOS } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = FOS_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = FOS_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = FOS_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = FOS_news_send_advisor_to_NOV } mutually_exclusive = { focus = FOS_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = FOS_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = FOS_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_KEL_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = KEL } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = KEL_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = KEL_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = KEL_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = KEL_news_send_advisor_to_NOV } mutually_exclusive = { focus = KEL_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = KEL_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = KEL_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_ARZ_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = ARZ } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = ARZ_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = ARZ_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = ARZ_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = ARZ_news_send_advisor_to_NOV } mutually_exclusive = { focus = ARZ_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = ARZ_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = ARZ_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_GRZ_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = GRZ } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = GRZ_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = GRZ_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = GRZ_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = GRZ_news_send_advisor_to_NOV } mutually_exclusive = { focus = GRZ_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = GRZ_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = GRZ_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_VIG_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = VIG } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = VIG_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = VIG_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = VIG_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = VIG_news_send_advisor_to_NOV } mutually_exclusive = { focus = VIG_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = VIG_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = VIG_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}
+
+focus_tree = {
+  id = OWW_SSE_news_hooks
+  country = { factor = 0 modifier = { add = 50 tag = SSE } }
+  default = no
+  continuous_focus_position = { x = 40 y = 2000 }
+  focus = { id = SSE_news_send_advisor_to_NOV icon = GFX_goal_generic_diplomacy x = 1 y = 0 cost = 5 completion_reward = { country_event = { id = oww_news_hooks.1 days = 1 } } }
+  focus = { id = SSE_news_field_exercises icon = GFX_goal_generic_major_war x = 3 y = 0 cost = 5 completion_reward = { add_war_support = 0.01 country_event = { id = oww_news_hooks.2 days = 1 } } }
+  focus = { id = SSE_news_alt_path icon = GFX_goal_generic_political_pressure x = 2 y = 1 cost = 5 prerequisite = { focus = SSE_news_send_advisor_to_NOV } mutually_exclusive = { focus = SSE_news_field_exercises } completion_reward = { add_political_power = 25 country_event = { id = oww_news_hooks.3 days = 1 } } }
+  focus = { id = SSE_news_secret_path icon = GFX_goal_generic_provoke_war x = 2 y = 2 cost = 8 prerequisite = { focus = SSE_news_alt_path } completion_reward = { country_event = { id = oww_news_hooks.4 days = 1 } } }
+}

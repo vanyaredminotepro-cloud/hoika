@@ -1,0 +1,27 @@
+equipments = {
+  oww_fpv_drone_equipment = {
+    type = infantry
+    year = 2023
+    archetype = infantry_equipment
+    build_cost_ic = 1
+    maximum_speed = 12
+    reliability = 0.8
+    soft_attack = 3
+  }
+  oww_recon_drone_equipment = {
+    type = infantry
+    year = 2023
+    archetype = infantry_equipment
+    build_cost_ic = 1
+    reliability = 0.9
+    reconnaissance = 2
+  }
+  oww_fast_boat_equipment = {
+    type = ship_hull_light
+    year = 2023
+    build_cost_ic = 2
+    naval_speed = 35
+    surface_detection = 4
+    sub_detection = 3
+  }
+}

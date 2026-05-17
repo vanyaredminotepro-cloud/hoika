@@ -1,0 +1,6 @@
+add_namespace = oww_p4
+country_event = { id = oww_p4.1 title = oww_p4.1.t desc = oww_p4.1.d is_triggered_only = yes option = { name = oww_p4.1.a OBS = { add_ideas = oww_obs_fourth_mutiny } } }
+country_event = { id = oww_p4.2 title = oww_p4.2.t desc = oww_p4.2.d is_triggered_only = yes option = { name = oww_p4.2.a SSE = { add_ideas = oww_ss_entor_network } } }
+country_event = { id = oww_p4.3 title = oww_p4.3.t desc = oww_p4.3.d is_triggered_only = yes option = { name = oww_p4.3.a ANT = { add_ideas = oww_ant_war_machine } } }
+country_event = { id = oww_p4.4 title = oww_p4.4.t desc = oww_p4.4.d is_triggered_only = yes option = { name = oww_p4.4.a FOS = { add_ideas = oww_fos_humanitarian_mediator } } }
+country_event = { id = oww_p4.5 title = oww_p4.5.t desc = oww_p4.5.d is_triggered_only = yes option = { name = oww_p4.5.a add_stability = 0.02 } }

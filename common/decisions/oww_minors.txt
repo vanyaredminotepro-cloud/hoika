@@ -1,0 +1,8 @@
+country_decisions = {
+  oww_minor_diplomacy = {
+    icon = generic_decision
+    oww_invite_kalidiya = { visible = { tag = OBS } available = { has_war = no } complete_effect = { KLD = { add_opinion_modifier = { target = ROOT modifier = alliance } } } }
+    oww_invite_kamolokhostan = { visible = { OR = { tag = KK8 tag = GNV } } available = { always = yes } complete_effect = { KML = { add_opinion_modifier = { target = ROOT modifier = alliance } } } }
+    oww_support_ilig = { visible = { tag = GNV } available = { always = yes } complete_effect = { ILG = { add_political_power = 30 } } }
+  }
+}

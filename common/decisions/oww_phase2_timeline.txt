@@ -1,0 +1,13 @@
+country_decisions = {
+  oww_phase2_timeline = {
+    icon = generic_decision
+    oww_p2_step_1_2023_11_21 = { icon = generic_construct_military visible = { always = yes } available = { date > 2023.11.20 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.1 days = 1 } } }
+    oww_p2_step_2_2023_11_24 = { icon = generic_prepare_for_war visible = { OR = { tag = OBS tag = OBK } } available = { date > 2023.11.23 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.2 days = 1 } } }
+    oww_p2_step_3_2023_11_28 = { icon = generic_diplomacy visible = { OR = { tag = NOV tag = KHR tag = KML } } available = { date > 2023.11.27 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.3 days = 1 } } }
+    oww_p2_step_4_2023_12_03 = { icon = generic_major_war visible = { OR = { tag = NRD tag = OBS tag = KK8 } } available = { date > 2023.12.02 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.4 days = 1 } } }
+    oww_p2_step_5_2023_12_09 = { icon = generic_peace visible = { always = yes } available = { date > 2023.12.08 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.5 days = 1 } } }
+    oww_p2_step_6_2023_12_15 = { icon = generic_occupy_states visible = { OR = { tag = ANT tag = MIN tag = ZIT } } available = { date > 2023.12.14 date < 2023.12.28 } complete_effect = { country_event = { id = oww_p2.6 days = 1 } } }
+    oww_p2_step_7_2023_12_21 = { icon = generic_allies_build_infantry visible = { always = yes } available = { date > 2023.12.20 date < 2023.12.31 } complete_effect = { country_event = { id = oww_p2.7 days = 1 } } }
+    oww_p2_step_8_2023_12_27 = { icon = generic_defensive_line visible = { always = yes } available = { date > 2023.12.26 date < 2024.01.10 } complete_effect = { country_event = { id = oww_p2.8 days = 1 } } }
+  }
+}

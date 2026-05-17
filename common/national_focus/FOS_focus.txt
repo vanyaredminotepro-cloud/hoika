@@ -1,0 +1,7 @@
+focus_tree = {
+ id = FOS_focus
+ country = { factor = 0 modifier = { add = 100 tag = FOS } }
+ focus = { id = FOS_call_for_ceasefire x = 2 y = 0 cost = 5 icon = GFX_goal_generic_neutrality_focus completion_reward = { add_ideas = oww_fos_humanitarian_mediator } }
+ focus = { id = FOS_border_shelters prerequisite = { focus = FOS_call_for_ceasefire } x = 2 y = 1 cost = 6 icon = GFX_goal_generic_construct_civilian completion_reward = { add_stability = 0.04 } }
+ focus = { id = FOS_military_readiness prerequisite = { focus = FOS_border_shelters } x = 2 y = 2 cost = 7 icon = GFX_goal_generic_construct_military completion_reward = { add_war_support = 0.05 } }
+}

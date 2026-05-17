@@ -1,0 +1,20 @@
+country_decisions = {
+  oww_systems = {
+    icon = generic_decision
+    oww_spread_kubrill = {
+      icon = generic_trade
+      available = { has_idea = oww_kubrill_economy }
+      visible = { always = yes }
+      complete_effect = {
+        add_stability = 0.02
+        add_political_power = -25
+      }
+    }
+    oww_trigger_rollback = {
+      icon = generic_prepare_for_war
+      available = { oww_major_stalemate_trigger = yes }
+      visible = { always = yes }
+      complete_effect = { oww_start_rollback = yes }
+    }
+  }
+}

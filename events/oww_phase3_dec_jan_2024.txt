@@ -1,0 +1,6 @@
+add_namespace = oww_p3
+country_event = { id = oww_p3.1 title = oww_p3.1.t desc = oww_p3.1.d is_triggered_only = yes option = { name = oww_p3.1.a add_stability = -0.03 } }
+country_event = { id = oww_p3.2 title = oww_p3.2.t desc = oww_p3.2.d is_triggered_only = yes option = { name = oww_p3.2.a add_war_support = 0.05 } }
+country_event = { id = oww_p3.3 title = oww_p3.3.t desc = oww_p3.3.d is_triggered_only = yes option = { name = oww_p3.3.a add_political_power = 50 } }
+country_event = { id = oww_p3.4 title = oww_p3.4.t desc = oww_p3.4.d is_triggered_only = yes option = { name = oww_p3.4.a add_stability = 0.04 } }
+country_event = { id = oww_p3.5 title = oww_p3.5.t desc = oww_p3.5.d is_triggered_only = yes option = { name = oww_p3.5.a add_war_support = 0.04 } }

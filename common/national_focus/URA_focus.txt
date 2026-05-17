@@ -1,0 +1,6 @@
+focus_tree = {
+ id = URA_focus
+ country = { factor = 0 modifier = { add = 100 tag = URA } }
+ focus = { id = URA_gasmask_supply x = 7 y = 0 cost = 5 icon = GFX_goal_generic_construct_civilian completion_reward = { add_stability = 0.03 } }
+ focus = { id = URA_regional_shelling prerequisite = { focus = URA_gasmask_supply } x = 7 y = 1 cost = 8 icon = GFX_goal_generic_major_war completion_reward = { add_war_support = 0.06 } }
+}

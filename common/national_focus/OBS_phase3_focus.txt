@@ -1,0 +1,7 @@
+focus_tree = {
+ id = OBS_phase3_focus
+ country = { factor = 0 modifier = { add = 100 tag = OBS } }
+ focus = { id = OBS_transfer_power_manera x = 4 y = 0 cost = 5 icon = GFX_goal_generic_political_reform completion_reward = { add_stability = 0.05 } }
+ focus = { id = OBS_restore_lyutiy_pragmatic prerequisite = { focus = OBS_transfer_power_manera } x = 4 y = 1 cost = 8 icon = GFX_goal_generic_intelligence_exchange completion_reward = { add_war_support = 0.05 } }
+ focus = { id = OBS_alliance_with_ant prerequisite = { focus = OBS_restore_lyutiy_pragmatic } x = 4 y = 2 cost = 8 icon = GFX_goal_generic_improve_relations completion_reward = { add_political_power = 75 } }
+}

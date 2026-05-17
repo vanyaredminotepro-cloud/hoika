@@ -1,0 +1,11 @@
+add_namespace = oww_p2
+
+# Phase 2: 2023-11-21 to 2023-12-27
+country_event = { id = oww_p2.1 title = oww_p2.1.t desc = oww_p2.1.d is_triggered_only = yes option = { name = oww_p2.1.a add_war_support = 0.05 } }
+country_event = { id = oww_p2.2 title = oww_p2.2.t desc = oww_p2.2.d is_triggered_only = yes option = { name = oww_p2.2.a add_stability = -0.06 } }
+country_event = { id = oww_p2.3 title = oww_p2.3.t desc = oww_p2.3.d is_triggered_only = yes option = { name = oww_p2.3.a add_political_power = 40 } }
+country_event = { id = oww_p2.4 title = oww_p2.4.t desc = oww_p2.4.d is_triggered_only = yes option = { name = oww_p2.4.a add_stability = -0.04 add_war_support = 0.05 } }
+country_event = { id = oww_p2.5 title = oww_p2.5.t desc = oww_p2.5.d is_triggered_only = yes option = { name = oww_p2.5.a add_stability = 0.03 } }
+country_event = { id = oww_p2.6 title = oww_p2.6.t desc = oww_p2.6.d is_triggered_only = yes option = { name = oww_p2.6.a add_stability = -0.03 } }
+country_event = { id = oww_p2.7 title = oww_p2.7.t desc = oww_p2.7.d is_triggered_only = yes option = { name = oww_p2.7.a add_war_support = 0.06 } }
+country_event = { id = oww_p2.8 title = oww_p2.8.t desc = oww_p2.8.d is_triggered_only = yes option = { name = oww_p2.8.a add_stability = 0.05 } }

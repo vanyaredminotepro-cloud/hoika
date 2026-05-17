@@ -1,0 +1,10 @@
+country_decisions = {
+ oww_phase3_timeline = {
+  icon = generic_decision
+  oww_p3_step_1_2023_12_27 = { icon = generic_prepare_for_war visible = { always = yes } available = { date > 2023.12.26 date < 2024.01.07 } complete_effect = { country_event = { id = oww_p3.1 days = 1 } } }
+  oww_p3_step_2_2023_12_30 = { icon = generic_major_war visible = { OR = { tag = ANT tag = ASA tag = TIG } } available = { date > 2023.12.29 date < 2024.01.07 } complete_effect = { country_event = { id = oww_p3.2 days = 1 } } }
+  oww_p3_step_3_2023_12_31 = { icon = generic_political_reform visible = { OR = { tag = OBS tag = OBK } } available = { date > 2023.12.30 date < 2024.01.07 } complete_effect = { country_event = { id = oww_p3.3 days = 1 } } }
+  oww_p3_step_4_2024_01_03 = { icon = generic_defensive_line visible = { always = yes } available = { date > 2024.01.02 date < 2024.01.10 } complete_effect = { country_event = { id = oww_p3.4 days = 1 } } }
+  oww_p3_step_5_2024_01_06 = { icon = generic_allies_build_infantry visible = { always = yes } available = { date > 2024.01.05 date < 2024.01.15 } complete_effect = { country_event = { id = oww_p3.5 days = 1 } } }
+ }
+}
