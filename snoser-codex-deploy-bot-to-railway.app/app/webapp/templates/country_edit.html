@@ -1,0 +1,66 @@
+﻿{% extends "base.html" %}
+
+{% block title %}WARLORD RP — Редактирование {{ country.name }}{% endblock %}
+
+{% block content %}
+<h1>✏️ Редактирование: {{ country.name }}</h1>
+<a href="{{ url_for('country_detail', name=country.name) }}" class="btn btn-small">← Назад к карточке</a>
+<a href="{{ url_for('index') }}" class="btn btn-small">← К списку стран</a>
+
+<div class="edit-card">
+    <form id="editForm">
+        <div class="field-row">
+            {% for field_key, field_label, field_type in editable_fields %}
+            <div class="form-group">
+                <label>{{ field_label }}</label>
+                {% if field_type == "number" %}
+                    <input type="number" name="{{ field_key }}" value="{{ country[field_key] if country[field_key] is not none else 0 }}" step="any" required>
+                {% else %}
+                    <input type="text" name="{{ field_key }}" value="{{ country[field_key] or '' }}" required>
+                {% endif %}
+                <button type="button" class="btn btn-small btn-save save-field" data-field="{{ field_key }}">Сохранить</button>
+            </div>
+            {% endfor %}
+        </div>
+    </form>
+
+    <div class="edit-note">
+        <p><strong>Как это работает:</strong> нажмите «Сохранить» под нужным полем — значение отправится в бота и сохранится в базе данных. Изменения Appear в карточке страны в следующем цикле обновления (обычно каждую минуту).</p>
+        <p><strong>Блокировка ⭐:</strong> числовые поля автоматически блокируются от перезаписи экономическим циклом бота, пока вы не снимите блокировку в админ-панели бота.</p>
+    </div>
+</div>
+
+<script>
+    const tg = window.Telegram.WebApp;
+
+    document.querySelectorAll('.save-field').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const group = btn.closest('.form-group');
+            const input = group.querySelector('input');
+            const field = btn.dataset.field;
+            const value = input.value;
+
+            if (!value && value !== '0') {
+                tg.showAlert('Введите значение');
+                return;
+            }
+
+            const data = {
+                action: 'edit_country',
+                country: '{{ country.name }}',
+                field: field,
+                value: value
+            };
+
+            tg.sendData(JSON.stringify(data));
+            btn.textContent = 'Отправлено...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                btn.textContent = 'Сохранить';
+                btn.disabled = false;
+            }, 1500);
+        });
+    });
+</script>
+{% endblock %}

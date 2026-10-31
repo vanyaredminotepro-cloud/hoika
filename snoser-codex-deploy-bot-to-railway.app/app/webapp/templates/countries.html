@@ -1,0 +1,65 @@
+﻿{% extends "base.html" %}
+
+{% block title %}WARLORD RP — Страны{% endblock %}
+
+{% block content %}
+<h1>📊 Страны WARLORD RP</h1>
+
+<div class="filters">
+    <form method="get" class="search-form">
+        <input type="text" name="q" placeholder="Поиск страны..." value="{{ search }}">
+        <select name="status">
+            <option value="">Все статусы</option>
+            {% for s in statuses %}
+            <option value="{{ s }}" {% if status_filter == s %}selected{% endif %}>{{ s }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" class="btn">🔍</button>
+    </form>
+</div>
+
+<div class="sort">
+    Сортировка: 
+    <a href="?q={{ search }}&status={{ status_filter }}&sort=name&order={% if sort == 'name' and order == 'asc' %}desc{% else %}asc{% endif %}">Имя</a> |
+    <a href="?q={{ search }}&status={{ status_filter }}&sort=population&order={% if sort == 'population' and order == 'asc' %}desc{% else %}asc{% endif %}">Население</a> |
+    <a href="?q={{ search }}&status={{ status_filter }}&sort=budget&order={% if sort == 'budget' and order == 'asc' %}desc{% else %}asc{% endif %}">Бюджет</a> |
+    <a href="?q={{ search }}&status={{ status_filter }}&sort=army&order={% if sort == 'army' and order == 'asc' %}desc{% else %}asc{% endif %}">Армия</a>
+</div>
+
+{% if countries %}
+<table class="countries-table">
+    <thead>
+        <tr>
+            <th>Флаг</th>
+            <th>Страна</th>
+            <th>Статус</th>
+            <th>Правитель</th>
+            <th>Население</th>
+            <th>Бюджет</th>
+            <th>Армия</th>
+            <th>Стабильность</th>
+            <th>Действие</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for c in countries %}
+        <tr>
+            <td>{{ "🏳️" if c.flag_file_id else "▫️" }}</td>
+            <td><a href="{{ url_for('country_detail', name=c.name) }}"><strong>{{ c.name }}</strong></a></td>
+            <td><span class="status-{{ c.status }}">{{ c.status }}</span></td>
+            <td>{{ c.ruler or "—" }}</td>
+            <td>{{ c.population }}</td>
+            <td>{{ "%.0f"|format(c.budget) }}</td>
+            <td>{{ c.army_infantry }}</td>
+            <td>{{ "%.1f"|format(c.stability) }}%</td>
+            <td>
+                <a href="{{ url_for('country_edit', name=c.name) }}" class="btn btn-small btn-edit">✏️ Редактировать</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>Страны не найдены.</p>
+{% endif %}
+{% endblock %}

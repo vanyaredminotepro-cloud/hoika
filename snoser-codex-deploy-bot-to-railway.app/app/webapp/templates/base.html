@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{% block title %}WARLORD RP — статистика{% endblock %}</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Telegram Web Appテーマ合わせ */
+        :root {
+            --tg-bg-color: #ffffff;
+            --tg-text-color: #000000;
+            --tg-hint-color: #888888;
+            --tg-link-color: #2481cc;
+            --tg-button-color: #2481cc;
+            --tg-button-text-color: #ffffff;
+            --tg-secondary-button-color: #f5f5f5;
+            --tg-secondary-button-text-color: #000000;
+            --tg-header-bg-color: #ffffff;
+            --tg-header-text-color: #000000;
+        }
+        body {
+            background-color: var(--tg-bg-color);
+            color: var(--tg-text-color);
+        }
+        .tg-hint { color: var(--tg-hint-color); }
+        .tg-link { color: var(--tg-link-color); }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">⚔️ WARLORD RP</div>
+        <div class="nav-links">
+            {% if session.admin %}
+                <a href="{{ url_for('index') }}">Страны</a>
+                <a href="{{ url_for('api_stats') }}" target="_blank">API статистика</a>
+                <a href="{{ url_for('logout') }}">Выйти</a>
+            {% else %}
+                <a href="{{ url_for('login') }}">Войти</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="flash-messages">
+                    {% for category, message in messages %}
+                        <div class="flash {{ category }}">{{ message }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        WARLORD RP &mdash; статистика стран и группировок
+    </footer>
+
+    <script>
+        // Инициализация Telegram Web App
+        const tg = window.Telegram.WebApp;
+        tg.expand();
+
+        // Установить тему под Telegram
+        if (tg.themeParams) {
+            const root = document.documentElement;
+            if (tg.themeParams.bg_color) root.style.setProperty('--tg-bg-color', tg.themeParams.bg_color);
+            if (tg.themeParams.text_color) root.style.setProperty('--tg-text-color', tg.themeParams.text_color);
+            if (tg.themeParams.hint_color) root.style.setProperty('--tg-hint-color', tg.themeParams.hint_color);
+            if (tg.themeParams.link_color) root.style.setProperty('--tg-link-color', tg.themeParams.link_color);
+            if (tg.themeParams.button_color) root.style.setProperty('--tg-button-color', tg.themeParams.button_color);
+            if (tg.themeParams.button_text_color) root.style.setProperty('--tg-button-text-color', tg.themeParams.button_text_color);
+            if (tg.themeParams.secondary_button_color) root.style.setProperty('--tg-secondary-button-color', tg.themeParams.secondary_button_color);
+            if (tg.themeParams.secondary_button_text_color) root.style.setProperty('--tg-secondary-button-text-color', tg.themeParams.secondary_button_text_color);
+            document.body.style.backgroundColor = tg.themeParams.bg_color || '#ffffff';
+            document.body.style.color = tg.themeParams.text_color || '#000000';
+        }
+
+        // Данные Web App (если переданы при запуске)
+        const webAppData = tg.initDataUnsafe || {};
+        console.log('WebApp initData:', webAppData);
+    </script>
+</body>
+</html>

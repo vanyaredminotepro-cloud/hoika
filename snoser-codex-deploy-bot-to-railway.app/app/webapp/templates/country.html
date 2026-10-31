@@ -1,0 +1,133 @@
+﻿{% extends "base.html" %}
+
+{% block title %}WARLORD RP — {{ country.name }}{% endblock %}
+
+{% block content %}
+<h1>🏴 {{ country.name }}</h1>
+
+<a href="{{ url_for('country_edit', name=country.name) }}" class="btn btn-primary">✏️ Редактировать статистику</a>
+<a href="{{ url_for('index') }}" class="btn btn-small">← Назад к списку</a>
+
+<div class="country-header">
+    <div class="country-flag">{{ "🏳️" if country.flag_file_id else "⚪" }}</div>
+    <div class="country-info">
+        <div class="country-status {{ country.status }}">{{ country.status }}</div>
+        <div class="country-info-row"><strong>Правитель:</strong> {{ country.ruler or "—" }}</div>
+        <div class="country-info-row"><strong>Партия:</strong> {{ country.party or "—" }}</div>
+        <div class="country-info-row"><strong>Идеология:</strong> {{ country.ideology or "—" }}</div>
+        <div class="country-info-row"><strong>Цвет:</strong> {{ country.color or "—" }}</div>
+        <div class="country-info-row"><strong>Налоги:</strong> {{ country.tax_level }}</div>
+    </div>
+</div>
+
+<div class="stats-grid">
+    <div class="stat-card population">
+        <div class="stat-label">Население</div>
+        <div class="stat-value">{{ country.population }}</div>
+        <div class="stat-sub">из {{ country.population_capacity }} лимит</div>
+    </div>
+
+    <div class="stat-card budget">
+        <div class="stat-label">Казна</div>
+        <div class="stat-value">{{ "%.0f"|format(country.budget) }}</div>
+        <div class="stat-sub">вирт-рублей</div>
+    </div>
+
+    <div class="stat-card income">
+        <div class="stat-label">Доход / день</div>
+        <div class="stat-value">+{{ "%.0f"|format(country.income_daily) }}</div>
+        <div class="stat-sub">ВР/сутки</div>
+    </div>
+
+    <div class="stat-card expenses">
+        <div class="stat-label">Расходы / день</div>
+        <div class="stat-value">-{{ "%.0f"|format(country.expenses_daily) }}</div>
+        <div class="stat-sub">ВР/сутки</div>
+    </div>
+</div>
+
+<div class="stats-grid">
+    <div class="stat-card stability">
+        <div class="stat-label">Стабильность</div>
+        <div class="stat-value">{{ "%.1f"|format(country.stability) }}%</div>
+    </div>
+    <div class="stat-card happiness">
+        <div class="stat-label">Счастье</div>
+        <div class="stat-value">{{ "%.1f"|format(country.happiness) }}%</div>
+    </div>
+    <div class="stat-card war-support">
+        <div class="stat-label">Поддержка войны</div>
+        <div class="stat-value">{{ "%.1f"|format(country.war_support) }}%</div>
+    </div>
+</div>
+
+<h2>⚔️ Армия</h2>
+<div class="army-grid">
+    <div class="army-unit">
+        <span class="army-name">Пехота</span>
+        <span class="army-value">{{ country.army_infantry }}</span>
+    </div>
+    <div class="army-unit">
+        <span class="army-name">Лёгкая техника</span>
+        <span class="army-value">{{ country.army_light_vehicles }}</span>
+    </div>
+    <div class="army-unit">
+        <span class="army-name">Тяжёлая техника</span>
+        <span class="army-value">{{ country.army_heavy_wheeled }}</span>
+    </div>
+    <div class="army-unit">
+        <span class="army-name">Артиллерия</span>
+        <span class="army-value">{{ country.army_artillery }}</span>
+    </div>
+    <div class="army-unit">
+        <span class="army-name">БПЛА</span>
+        <span class="army-value">{{ country.army_drones }}</span>
+    </div>
+    <div class="army-unit">
+        <span class="army-name">Флот</span>
+        <span class="army-value">{{ country.army_navy }}</span>
+    </div>
+</div>
+
+{% if country.settlements_json %}
+<h2>🏙️ Населённые пункты</h2>
+<div class="list-section">
+    {% for s in country.settlements_json %}
+    <span class="badge">{{ s.name if s is mapping else s }}{% if s is mapping and s.value %} ({{ s.value }}){% endif %}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if country.industry_json %}
+<h2>🏭 Промышленность</h2>
+<div class="list-section">
+    {% for i in country.industry_json %}
+    <span class="badge">{{ i.name if i is mapping else i }}{% if i is mapping and i.value %} ×{{ i.value }}{% endif %}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if country.research_json %}
+<h2>🔬 Исследования</h2>
+<div class="list-section">
+    {% for r in country.research_json %}
+    <span class="badge">{{ r.name if r is mapping else r }}{% if r is mapping and r.time_left_hours %} ({{ r.time_left_hours }}ч){% endif %}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if country.resources_json %}
+<h2>💎 Ресурсы</h2>
+<div class="list-section">
+    {% for r in country.resources_json %}
+    <span class="badge">{{ r.name if r is mapping else r }}{% if r is mapping and r.value %}: {{ r.value }}{% endif %}</span>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="meta-info">
+    <p><strong>Обновлено:</strong> {{ country.updated_at or "—" }}</p>
+    <p><strong>Последний расчёт экономики:</strong> {{ country.last_econ_at or "—" }}</p>
+    <p><strong>Зарегистрировано:</strong> {{ country.registered_at or "—" }}</p>
+</div>
+{% endblock %}

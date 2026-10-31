@@ -1,0 +1,818 @@
+2026-09-17 13:39:40,929 WARNING  app.core.ai_service: GEMINI_API_KEY is not set; AI formatting is disabled.
+2026-09-17 13:39:44,566 INFO     telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-09-17 13:39:44,571 INFO     telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-09-17 13:39:54,086 INFO     warlord.main: userbot авторизован: Lutii("")
+2026-09-17 13:39:56,836 ERROR    app.warlord.scheduler: discover: не удалось создать тему группировок: 'UpdateMessageID' object has no attribute 'message'
+2026-09-17 13:39:56,842 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 13:39:56,844 INFO     warlord.main: бот запущен. Отправляю команду /status админу (если задан).
+2026-09-17 13:39:58,780 INFO     telethon.client.updates: Got difference for channel 2446986804 updates
+2026-09-17 13:39:59,680 INFO     aiogram.dispatcher: Start polling
+2026-09-17 13:40:01,048 INFO     aiogram.dispatcher: Run polling for bot @obsautonewsbot id=8632955122 - 'Авто-новости'
+2026-09-17 13:40:01,860 INFO     app.warlord.scheduler: === Начинаю цикл обновления карточек ===
+2026-09-17 13:40:01,861 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 13:40:03,709 INFO     app.warlord.scheduler: тема 65881: прочитано 90, свежих 0
+2026-09-17 13:40:06,911 INFO     app.warlord.scheduler: тема 83064: прочитано 90, свежих 0
+2026-09-17 13:40:10,188 INFO     app.warlord.scheduler: тема 137535: прочитано 14, свежих 0
+2026-09-17 13:40:11,910 INFO     app.warlord.scheduler: тема 70799: прочитано 84, свежих 0
+2026-09-17 13:40:20,630 INFO     app.warlord.scheduler: === Цикл завершён ===
+2026-09-17 13:42:09,398 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:42:35,721 INFO     aiogram.event: Update id=749253477 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 13:42:47,831 INFO     aiogram.event: Update id=749253478 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 13:42:48,626 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:42:50,808 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 13:43:16,856 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 13:44:09,891 INFO     aiogram.event: Update id=749253479 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 13:44:17,475 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:17,475 WARNING  aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8632955122)
+2026-09-17 13:44:25,107 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:25,107 WARNING  aiogram.dispatcher: Sleep for 1.300036 seconds and try again... (tryings = 1, bot id = 8632955122)
+2026-09-17 13:44:33,251 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:33,251 WARNING  aiogram.dispatcher: Sleep for 1.780361 seconds and try again... (tryings = 2, bot id = 8632955122)
+2026-09-17 13:44:42,438 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:42,438 WARNING  aiogram.dispatcher: Sleep for 2.378654 seconds and try again... (tryings = 3, bot id = 8632955122)
+2026-09-17 13:44:46,841 INFO     aiogram.dispatcher: Connection established (tryings = 4, bot id = 8632955122)
+2026-09-17 13:44:49,056 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:49,056 WARNING  aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8632955122)
+2026-09-17 13:44:58,073 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:44:58,073 WARNING  aiogram.dispatcher: Sleep for 1.313888 seconds and try again... (tryings = 1, bot id = 8632955122)
+2026-09-17 13:45:08,339 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:45:08,340 WARNING  aiogram.dispatcher: Sleep for 1.611038 seconds and try again... (tryings = 2, bot id = 8632955122)
+2026-09-17 13:45:11,655 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 13:45:13,058 INFO     aiogram.event: Update id=749253480 is handled. Duration 26218 ms by bot id=8632955122
+2026-09-17 13:45:16,626 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:45:16,626 WARNING  aiogram.dispatcher: Sleep for 2.187279 seconds and try again... (tryings = 3, bot id = 8632955122)
+2026-09-17 13:45:26,413 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:45:26,413 WARNING  aiogram.dispatcher: Sleep for 2.860521 seconds and try again... (tryings = 4, bot id = 8632955122)
+2026-09-17 13:45:40,645 INFO     aiogram.dispatcher: Connection established (tryings = 5, bot id = 8632955122)
+2026-09-17 13:46:02,681 INFO     aiogram.event: Update id=749253481 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 13:46:09,022 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:46:09,022 WARNING  aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8632955122)
+2026-09-17 13:46:16,537 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:46:16,537 WARNING  aiogram.dispatcher: Sleep for 1.228771 seconds and try again... (tryings = 1, bot id = 8632955122)
+2026-09-17 13:46:24,974 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:46:24,974 WARNING  aiogram.dispatcher: Sleep for 1.765442 seconds and try again... (tryings = 2, bot id = 8632955122)
+2026-09-17 13:46:30,286 WARNING  telethon.network.connection.connection: Server closed the connection: 0 bytes read on a total of 8 expected bytes
+2026-09-17 13:46:30,286 INFO     telethon.network.mtprotosender: Connection closed while receiving data: 0 bytes read on a total of 8 expected bytes
+2026-09-17 13:46:30,286 INFO     telethon.network.mtprotosender: Closing current connection to begin reconnect...
+2026-09-17 13:46:30,287 INFO     telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-09-17 13:46:30,290 INFO     telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-09-17 13:46:37,815 WARNING  telethon.client.updates: Error executing high-level request after reconnect: <class 'sqlite3.OperationalError'>: database is locked
+2026-09-17 13:46:37,815 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-17 13:46:37,815 WARNING  aiogram.dispatcher: Sleep for 2.094049 seconds and try again... (tryings = 3, bot id = 8632955122)
+2026-09-17 13:46:44,044 INFO     aiogram.dispatcher: Connection established (tryings = 4, bot id = 8632955122)
+2026-09-17 13:46:47,108 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:46:48,357 INFO     telethon.client.updates: Got difference for channel 2446986804 updates
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\cards.py", line 240, in publish_country_card
+    await bot.edit_message_text(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 1569, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1101, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\xf6' in position 77: character maps to <undefined>
+Call stack:
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\bot.py", line 19, in <module>
+    sys.exit(run())
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\bot.py", line 9, in run
+    asyncio.run(main())
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\handlers.py", line 74, in cards_cmd
+    await scheduler.publish_all_cards(force=True)
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\scheduler.py", line 305, in publish_all_cards
+    msg_id = await publish_country_card(
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\cards.py", line 246, in publish_country_card
+    log.warning("edit country %s failed (%s); send new", country.get("name"), exc)
+Message: 'edit country %s failed (%s); send new'
+Arguments: ('Eisenfaust-K\xf6nigreich', TelegramBadRequest('Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message'))
+2026-09-17 13:46:51,235 INFO     aiogram.event: Update id=749253483 is handled. Duration 3436 ms by bot id=8632955122
+2026-09-17 13:46:52,396 WARNING  app.warlord.cards: edit country N.I.C.I.L.U.S. - Norvex Industrial Commercial International Logistical Unified State failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:46:55,471 WARNING  app.warlord.cards: edit country Аганимлэнд failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:46:56,893 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:46:58,581 WARNING  app.warlord.cards: edit country Балтослободия failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:01,305 WARNING  app.warlord.cards: edit country Видхельм failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:02,281 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:47:03,662 WARNING  app.warlord.cards: edit country Олбония failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:03,722 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 13:47:07,206 WARNING  app.warlord.cards: edit country Пупсонская Республика failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:07,850 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:47:09,864 WARNING  app.warlord.cards: edit country Республика Регио Декала failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:12,848 WARNING  app.warlord.cards: edit country ССШС (Союз Социалистических Штатов Сабзонии) failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:16,487 WARNING  app.warlord.cards: edit country Фаустланд failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 13:47:19,568 WARNING  app.warlord.cards: edit country Фризенляндия failed (Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002446986804. Retry in 30 seconds.
+Original description: Too Many Requests: retry after 30
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)); send new
+2026-09-17 13:47:21,031 ERROR    app.warlord.scheduler: карточка страны Фризенляндия: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1002446986804. Retry in 29 seconds.
+Original description: Too Many Requests: retry after 29
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-09-17 13:47:21,031 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 13:47:22,326 INFO     aiogram.event: Update id=749253482 is handled. Duration 38280 ms by bot id=8632955122
+2026-09-17 13:47:46,582 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 13:48:31,840 INFO     aiogram.event: Update id=749253484 is handled. Duration 3579 ms by bot id=8632955122
+2026-09-17 13:48:42,778 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 13:50:21,901 INFO     aiogram.event: Update id=749253485 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 13:50:23,383 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:50:24,760 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 13:50:27,450 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 13:50:32,049 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 13:59:30,999 INFO     telethon.client.updates: Got difference for channel 2432128363 updates
+2026-09-17 14:00:31,544 INFO     telethon.client.updates: Got difference for channel 2432128363 updates
+2026-09-17 14:01:48,604 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 14:02:55,210 INFO     aiogram.event: Update id=749253486 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:03:37,968 INFO     aiogram.event: Update id=749253487 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:03:45,565 INFO     aiogram.event: Update id=749253488 is handled. Duration 3297 ms by bot id=8632955122
+2026-09-17 14:03:47,720 INFO     aiogram.event: Update id=749253489 is handled. Duration 3610 ms by bot id=8632955122
+2026-09-17 14:03:49,752 INFO     aiogram.event: Update id=749253490 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:03:55,987 INFO     aiogram.event: Update id=749253491 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:03:57,836 INFO     aiogram.event: Update id=749253492 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:00,080 INFO     aiogram.event: Update id=749253493 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:04,091 INFO     aiogram.event: Update id=749253494 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:05,347 INFO     aiogram.event: Update id=749253495 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:09,434 INFO     aiogram.event: Update id=749253496 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:10,622 INFO     aiogram.event: Update id=749253497 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:16,024 INFO     aiogram.event: Update id=749253498 is handled. Duration 16 ms by bot id=8632955122
+2026-09-17 14:04:17,217 INFO     aiogram.event: Update id=749253499 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:20,371 INFO     aiogram.event: Update id=749253500 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:21,785 INFO     aiogram.event: Update id=749253501 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:25,776 INFO     aiogram.event: Update id=749253502 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:32,046 INFO     aiogram.event: Update id=749253503 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:37,427 INFO     aiogram.event: Update id=749253504 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:41,668 INFO     aiogram.event: Update id=749253505 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:43,432 INFO     aiogram.event: Update id=749253506 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:46,494 INFO     aiogram.event: Update id=749253507 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:48,028 INFO     aiogram.event: Update id=749253508 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:55,126 INFO     aiogram.event: Update id=749253509 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:57,346 INFO     aiogram.event: Update id=749253510 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:04:59,693 INFO     aiogram.event: Update id=749253511 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:00,935 INFO     aiogram.event: Update id=749253512 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:04,182 INFO     aiogram.event: Update id=749253513 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:11,712 INFO     aiogram.event: Update id=749253514 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:16,671 INFO     aiogram.event: Update id=749253515 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:19,030 INFO     aiogram.event: Update id=749253516 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:23,506 INFO     aiogram.event: Update id=749253517 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:24,786 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 14:05:26,082 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 14:05:27,803 INFO     aiogram.event: Update id=749253518 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:28,724 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 14:05:32,563 INFO     aiogram.event: Update id=749253519 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:33,158 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:05:33,750 INFO     aiogram.event: Update id=749253520 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:43,011 INFO     aiogram.event: Update id=749253521 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:05:46,551 INFO     aiogram.event: Update id=749253522 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:06:01,334 INFO     aiogram.event: Update id=749253523 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:06:07,706 INFO     aiogram.event: Update id=749253524 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:06:11,055 INFO     aiogram.event: Update id=749253525 is not handled. Duration 14 ms by bot id=8632955122
+2026-09-17 14:06:15,306 INFO     aiogram.event: Update id=749253526 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:07:18,140 INFO     aiogram.event: Update id=749253527 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:11:16,009 INFO     aiogram.event: Update id=749253528 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:13:20,991 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 14:16:50,131 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 14:17:56,579 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:18:06,718 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:18:22,736 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:20:26,110 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 14:20:27,477 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 14:20:30,692 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 14:20:49,648 INFO     aiogram.event: Update id=749253529 is handled. Duration 16 ms by bot id=8632955122
+2026-09-17 14:20:51,952 INFO     aiogram.event: Update id=749253530 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:21:01,341 INFO     aiogram.event: Update id=749253531 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 14:23:56,092 INFO     aiogram.event: Update id=749253532 is handled. Duration 3204 ms by bot id=8632955122
+2026-09-17 14:25:30,176 WARNING  app.warlord.cards: edit country Фризенляндия failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 14:25:31,705 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 14:25:33,008 INFO     aiogram.event: Update id=749253533 is handled. Duration 23000 ms by bot id=8632955122
+2026-09-17 14:25:36,767 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:28:23,648 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 14:31:51,254 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 14:35:28,385 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 14:35:29,926 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 14:35:32,082 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 14:37:18,040 INFO     telethon.client.updates: Got difference for channel 3155005719 updates
+2026-09-17 14:40:20,631 INFO     app.warlord.scheduler: === Начинаю цикл обновления карточек ===
+2026-09-17 14:40:20,633 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 14:40:22,309 INFO     app.warlord.scheduler: тема 65881: прочитано 90, свежих 1
+2026-09-17 14:40:23,997 INFO     app.warlord.scheduler: тема 83064: прочитано 90, свежих 0
+2026-09-17 14:40:26,869 INFO     app.warlord.scheduler: тема 137535: прочитано 14, свежих 0
+2026-09-17 14:40:28,602 INFO     app.warlord.scheduler: тема 70799: прочитано 84, свежих 0
+2026-09-17 14:40:37,803 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:40:39,820 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Excellence» в новостях WARLORD RP?
+2026-09-17 14:40:41,324 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Group» в новостях WARLORD RP?
+2026-09-17 14:40:42,832 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Michelin» в новостях WARLORD RP?
+2026-09-17 14:40:42,835 INFO     app.warlord.scheduler: === Цикл завершён ===
+2026-09-17 14:43:24,859 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 14:46:52,885 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 14:48:56,220 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 14:50:10,585 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 14:50:31,476 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 14:50:33,247 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 14:50:45,878 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 14:50:47,769 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 14:58:27,209 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 15:03:53,377 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:04:37,223 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 15:05:12,186 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 15:05:31,795 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 15:05:33,163 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 15:08:29,850 INFO     aiogram.event: Update id=749253534 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:13:28,569 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 15:16:54,736 INFO     aiogram.event: Update id=749253535 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:16:56,943 INFO     telethon.client.updates: Got difference for channel 2446986804 updates
+2026-09-17 15:18:54,887 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:19:38,613 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 15:20:04,930 INFO     aiogram.event: Update id=749253536 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:07,155 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:20:08,991 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:20:15,569 INFO     aiogram.event: Update id=749253537 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:21,506 INFO     aiogram.event: Update id=749253538 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:29,609 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:20:32,464 INFO     aiogram.event: Update id=749253539 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:33,077 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 15:20:33,740 INFO     aiogram.event: Update id=749253540 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:34,834 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 15:20:35,664 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 15:20:38,620 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:20:40,757 INFO     aiogram.event: Update id=749253541 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:44,503 INFO     aiogram.event: Update id=749253542 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:20:46,395 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:20:50,621 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 15:20:51,420 INFO     aiogram.event: Update id=749253543 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:23:26,620 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:25:32,982 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:27:33,108 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:27:34,289 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 15:28:30,005 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 15:28:32,786 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 15:28:57,233 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 15:29:29,420 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 15:34:40,170 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 15:35:00,733 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 15:35:34,353 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 15:35:35,861 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 15:35:37,017 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 15:40:42,866 INFO     app.warlord.scheduler: === Начинаю цикл обновления карточек ===
+2026-09-17 15:40:42,868 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 15:40:45,295 INFO     app.warlord.scheduler: тема 65881: прочитано 90, свежих 0
+2026-09-17 15:40:47,284 INFO     app.warlord.scheduler: тема 83064: прочитано 90, свежих 0
+2026-09-17 15:40:50,051 INFO     app.warlord.scheduler: тема 137535: прочитано 14, свежих 0
+2026-09-17 15:40:51,854 INFO     app.warlord.scheduler: тема 70799: прочитано 84, свежих 0
+2026-09-17 15:40:54,992 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Twin-Turbo» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 15:40:56,377 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Аэродинамика» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 15:40:58,278 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Гоночный» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 15:40:59,527 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Двигатель» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 15:41:01,582 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Класс» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 15:41:11,596 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Коробка» в новостях WARLORD RP?
+2026-09-17 15:41:12,904 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Крутящий» в новостях WARLORD RP?
+2026-09-17 15:41:14,439 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Кузов» в новостях WARLORD RP?
+2026-09-17 15:41:14,442 INFO     app.warlord.scheduler: === Цикл завершён ===
+2026-09-17 15:42:34,216 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:42:35,414 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 15:43:54,429 INFO     telethon.client.updates: Got difference for channel 2181425771 updates
+2026-09-17 15:43:58,601 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 15:44:30,714 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 15:45:34,409 INFO     aiogram.event: Update id=749253544 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 15:49:16,026 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:49:24,629 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:49:32,944 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:49:49,299 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 15:50:01,797 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 15:50:35,482 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 15:50:36,956 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 15:50:39,464 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 15:55:22,047 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:01:09,148 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:06:52,354 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 16:06:53,449 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 16:06:57,961 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 16:06:59,557 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 16:07:03,294 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 16:07:04,642 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:07:05,938 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 16:07:08,088 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 16:07:09,417 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 16:07:12,040 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:10:45,678 INFO     aiogram.event: Update id=749253545 is handled. Duration 3703 ms by bot id=8632955122
+2026-09-17 16:10:46,732 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:10:54,147 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:11:01,990 INFO     aiogram.event: Update id=749253546 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:11:26,065 INFO     aiogram.event: Update id=749253547 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:11:28,122 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:11:32,919 INFO     aiogram.event: Update id=749253548 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:11:39,608 INFO     aiogram.event: Update id=749253549 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:11:45,184 INFO     aiogram.event: Update id=749253550 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:11:46,187 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:11:56,229 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:13:26,626 INFO     aiogram.event: Update id=749253551 is not handled. Duration 73640 ms by bot id=8632955122
+2026-09-17 16:13:26,626 ERROR    aiogram.event: Cause exception while process update id=749253551 by bot id=8632955122
+TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1116, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1080, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1110, in _create_connection_transport
+    await waiter
+ConnectionAbortedError: SSL handshake is taking longer than 60.0 seconds: aborting the connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 181, in make_request
+    async with session.post(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 1360, in __aenter__
+    self._resp: _RetType = await self._coro
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\client.py", line 663, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 538, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1050, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1384, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1353, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiohttp\connector.py", line 1124, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\handlers\assistant.py", line 154, in ai_mention_question
+    await _reply(message, question)
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\handlers\assistant.py", line 115, in _reply
+    await message.answer(html.escape(chunk), parse_mode="HTML")
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 188, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-09-17 16:14:16,348 INFO     telethon.client.updates: Got difference for channel 1237513492 updates
+2026-09-17 16:14:19,610 INFO     telethon.client.updates: Got difference for channel 2029024950 updates
+2026-09-17 16:15:04,016 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:15:05,616 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 16:15:35,963 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:17:18,573 INFO     aiogram.event: Update id=749253552 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:20:45,565 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:22:10,236 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 16:22:11,966 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 16:22:14,469 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:22:15,814 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 16:22:18,927 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 16:22:25,215 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 16:22:28,141 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 16:22:56,152 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:23:34,898 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:24:47,972 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:26:06,565 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:27:44,728 INFO     telethon.client.updates: Got difference for channel 2181425771 updates
+2026-09-17 16:27:50,321 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 16:28:33,676 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:28:36,471 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 16:30:00,588 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 16:30:01,891 INFO     telethon.client.updates: Got difference for channel 2029024950 updates
+2026-09-17 16:32:26,868 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:32:28,130 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 16:39:19,804 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:39:32,628 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 16:39:34,083 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 16:39:37,208 INFO     telethon.client.updates: Got difference for channel 2356737046 updates
+2026-09-17 16:39:38,482 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 16:39:46,575 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 16:41:16,011 INFO     app.warlord.scheduler: === Начинаю цикл обновления карточек ===
+2026-09-17 16:41:16,012 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 16:41:18,421 INFO     app.warlord.scheduler: тема 65881: прочитано 90, свежих 0
+2026-09-17 16:41:20,293 INFO     app.warlord.scheduler: тема 83064: прочитано 90, свежих 0
+2026-09-17 16:41:24,221 INFO     app.warlord.scheduler: тема 137535: прочитано 14, свежих 0
+2026-09-17 16:41:25,615 INFO     app.warlord.scheduler: тема 70799: прочитано 84, свежих 0
+2026-09-17 16:41:30,494 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Максимальная» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 16:41:31,918 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Масса» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 16:41:33,511 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Мощность» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 16:41:35,682 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Назначение» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 16:41:37,114 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Основной» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 16:41:47,370 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Привод» в новостях WARLORD RP?
+2026-09-17 16:41:48,919 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Производитель» в новостях WARLORD RP?
+2026-09-17 16:41:50,647 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Топливный» в новостях WARLORD RP?
+2026-09-17 16:41:50,651 INFO     app.warlord.scheduler: === Цикл завершён ===
+2026-09-17 16:44:54,089 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 16:44:55,685 INFO     telethon.client.updates: Got difference for channel 1237513492 updates
+2026-09-17 16:44:57,106 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 16:44:58,450 INFO     telethon.client.updates: Got difference for channel 2181425771 updates
+2026-09-17 16:45:00,086 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 16:47:03,629 INFO     aiogram.event: Update id=749253553 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:47:07,447 INFO     aiogram.event: Update id=749253554 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:47:14,036 INFO     aiogram.event: Update id=749253555 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:47:20,137 INFO     aiogram.event: Update id=749253556 is handled. Duration 3171 ms by bot id=8632955122
+2026-09-17 16:47:46,825 INFO     aiogram.event: Update id=749253557 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:48:01,959 INFO     aiogram.event: Update id=749253558 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:48:34,383 INFO     aiogram.event: Update id=749253559 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:48:34,384 INFO     aiogram.event: Update id=749253560 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:48:34,702 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:48:37,254 INFO     aiogram.event: Update id=749253561 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:50:47,515 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:50:53,806 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:52:19,855 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:52:50,536 INFO     aiogram.event: Update id=749253562 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 16:53:51,065 INFO     telethon.client.updates: Got difference for channel 1237513492 updates
+2026-09-17 16:53:54,235 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 16:53:55,182 INFO     telethon.client.updates: Got difference for channel 3663198271 updates
+2026-09-17 16:55:25,599 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 16:56:14,505 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:01:58,097 INFO     aiogram.event: Update id=749253563 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:02:33,222 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:02:48,998 INFO     aiogram.event: Update id=749253564 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:03:41,288 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:04:04,352 INFO     aiogram.event: Update id=749253565 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:04:05,801 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:04:09,767 INFO     aiogram.event: Update id=749253566 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:04:12,526 INFO     aiogram.event: Update id=749253567 is handled. Duration 16 ms by bot id=8632955122
+2026-09-17 17:05:33,403 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:05:43,398 INFO     aiogram.event: Update id=749253568 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:05:48,183 INFO     aiogram.event: Update id=749253569 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:05:54,284 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:05:57,537 INFO     aiogram.event: Update id=749253570 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:07,400 INFO     aiogram.event: Update id=749253571 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:13,145 INFO     aiogram.event: Update id=749253572 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:14,783 INFO     aiogram.event: Update id=749253573 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:21,433 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:06:27,711 INFO     aiogram.event: Update id=749253574 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:32,047 INFO     aiogram.event: Update id=749253575 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:06:59,466 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:07:01,404 INFO     aiogram.event: Update id=749253576 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:04,240 INFO     aiogram.event: Update id=749253577 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:34,690 INFO     aiogram.event: Update id=749253578 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:41,636 INFO     aiogram.event: Update id=749253579 is not handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:07:41,636 INFO     aiogram.event: Update id=749253580 is not handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:07:42,191 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:07:43,140 INFO     aiogram.event: Update id=749253581 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:45,002 INFO     aiogram.event: Update id=749253582 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:47,491 INFO     aiogram.event: Update id=749253583 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:48,415 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:07:48,825 INFO     aiogram.event: Update id=749253584 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:07:50,428 INFO     aiogram.event: Update id=749253585 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:18,138 INFO     aiogram.event: Update id=749253586 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:27,403 INFO     aiogram.event: Update id=749253587 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:33,278 INFO     aiogram.event: Update id=749253588 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:37,891 INFO     aiogram.event: Update id=749253589 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:40,338 INFO     aiogram.event: Update id=749253590 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:42,299 INFO     aiogram.event: Update id=749253591 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:47,876 INFO     aiogram.event: Update id=749253592 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:51,382 INFO     aiogram.event: Update id=749253593 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:54,906 INFO     aiogram.event: Update id=749253594 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:57,825 INFO     aiogram.event: Update id=749253595 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:08:58,885 INFO     aiogram.event: Update id=749253596 is handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:09:03,696 INFO     aiogram.event: Update id=749253597 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:04,907 INFO     aiogram.event: Update id=749253598 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:09,712 INFO     aiogram.event: Update id=749253599 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:11,075 INFO     aiogram.event: Update id=749253600 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:16,002 INFO     aiogram.event: Update id=749253601 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:18,109 INFO     aiogram.event: Update id=749253602 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:20,931 INFO     aiogram.event: Update id=749253603 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:23,212 INFO     aiogram.event: Update id=749253604 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:24,678 INFO     aiogram.event: Update id=749253605 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:26,384 INFO     aiogram.event: Update id=749253606 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:29,809 INFO     aiogram.event: Update id=749253607 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:31,475 INFO     aiogram.event: Update id=749253608 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:33,184 INFO     aiogram.event: Update id=749253609 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:35,278 INFO     aiogram.event: Update id=749253610 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:37,063 INFO     aiogram.event: Update id=749253611 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:42,640 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:09:45,611 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:09:47,835 INFO     aiogram.event: Update id=749253612 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:49,928 INFO     aiogram.event: Update id=749253613 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:09:51,678 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:09:59,007 INFO     aiogram.event: Update id=749253614 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:06,715 INFO     aiogram.event: Update id=749253615 is handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:10:08,338 INFO     aiogram.event: Update id=749253616 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:09,895 INFO     aiogram.event: Update id=749253617 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:11,311 INFO     aiogram.event: Update id=749253618 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:12,729 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:10:19,196 INFO     aiogram.event: Update id=749253619 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:21,043 INFO     aiogram.event: Update id=749253620 is handled. Duration 14 ms by bot id=8632955122
+2026-09-17 17:10:23,562 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:10:54,258 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:10:55,807 INFO     aiogram.event: Update id=749253621 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:55,807 INFO     aiogram.event: Update id=749253622 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:57,034 INFO     aiogram.event: Update id=749253623 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:10:58,776 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 17:11:01,676 INFO     aiogram.event: Update id=749253624 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:02,940 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 17:11:03,124 INFO     aiogram.event: Update id=749253625 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:04,580 INFO     aiogram.event: Update id=749253626 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:05,957 INFO     aiogram.event: Update id=749253627 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:07,424 INFO     aiogram.event: Update id=749253628 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:07,424 INFO     aiogram.event: Update id=749253629 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:09,462 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 17:11:11,967 INFO     aiogram.event: Update id=749253630 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:14,019 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 17:11:19,323 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 17:11:20,813 INFO     telethon.client.updates: Got difference for channel 2181425771 updates
+2026-09-17 17:11:25,335 INFO     telethon.client.updates: Got difference for channel 2446986804 updates
+2026-09-17 17:11:28,109 INFO     aiogram.event: Update id=749253631 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:28,165 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 17:11:33,964 INFO     aiogram.event: Update id=749253632 is handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:11:45,028 INFO     aiogram.event: Update id=749253633 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:11:47,264 INFO     aiogram.event: Update id=749253634 is not handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:11:47,265 INFO     aiogram.event: Update id=749253635 is not handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:11:47,265 INFO     aiogram.event: Update id=749253636 is not handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:11:50,663 INFO     aiogram.event: Update id=749253637 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:12:00,821 INFO     aiogram.event: Update id=749253638 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:12:04,850 INFO     aiogram.event: Update id=749253639 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:12:09,781 INFO     aiogram.event: Update id=749253640 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:12:43,060 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:12:46,149 INFO     aiogram.event: Update id=749253641 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:12:47,941 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:13:31,160 INFO     aiogram.event: Update id=749253642 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:13:35,919 INFO     aiogram.event: Update id=749253643 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:14:00,327 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:14:03,111 INFO     aiogram.event: Update id=749253644 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:14:05,221 INFO     aiogram.event: Update id=749253645 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:14:46,684 INFO     aiogram.event: Update id=749253646 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:14:47,708 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:14:53,973 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:14:59,520 INFO     aiogram.event: Update id=749253647 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:01,995 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:15:02,538 INFO     aiogram.event: Update id=749253648 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:05,625 INFO     aiogram.event: Update id=749253649 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:07,229 INFO     aiogram.event: Update id=749253650 is handled. Duration 16 ms by bot id=8632955122
+2026-09-17 17:15:08,454 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:15:08,806 INFO     aiogram.event: Update id=749253651 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:12,453 INFO     aiogram.event: Update id=749253652 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:14,025 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:15:14,597 INFO     aiogram.event: Update id=749253653 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:21,651 INFO     aiogram.event: Update id=749253654 is handled. Duration 16 ms by bot id=8632955122
+2026-09-17 17:15:28,403 INFO     aiogram.event: Update id=749253655 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:15:42,021 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:15:45,274 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:16:02,539 INFO     aiogram.event: Update id=749253656 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:16:10,176 INFO     aiogram.event: Update id=749253657 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:16:55,389 INFO     aiogram.event: Update id=749253658 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:17:44,585 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:18:40,668 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:20:02,692 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:20:45,625 INFO     aiogram.event: Update id=749253659 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:21:29,151 INFO     aiogram.event: Update id=749253660 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:21:43,470 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:22:20,533 INFO     aiogram.event: Update id=749253661 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:22:21,619 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:22:21,929 INFO     aiogram.event: Update id=749253662 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:22:23,076 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 17:23:02,314 INFO     aiogram.event: Update id=749253663 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:23:10,727 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:23:22,583 INFO     aiogram.event: Update id=749253664 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:23:33,137 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:23:53,958 INFO     aiogram.event: Update id=749253665 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:24:29,273 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:29:58,543 INFO     telethon.client.updates: Got difference for channel 2257330243 updates
+2026-09-17 17:30:03,024 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 17:30:10,483 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 17:30:11,980 INFO     telethon.client.updates: Got difference for channel 3155005719 updates
+2026-09-17 17:30:14,575 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 17:30:20,204 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 17:30:26,016 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 17:30:30,758 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 17:31:32,175 INFO     telethon.client.updates: Got difference for channel 4315604927 updates
+2026-09-17 17:31:48,923 INFO     aiogram.event: Update id=749253666 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:32:49,381 INFO     aiogram.event: Update id=749253667 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:34:43,354 INFO     telethon.client.updates: Got difference for channel 2432128363 updates
+2026-09-17 17:35:58,406 INFO     aiogram.event: Update id=749253668 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:37:24,203 INFO     aiogram.event: Update id=749253669 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:37:27,746 INFO     telethon.client.updates: Got difference for channel 2446986804 updates
+2026-09-17 17:37:32,942 INFO     aiogram.event: Update id=749253670 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:37:38,839 INFO     aiogram.event: Update id=749253671 is handled. Duration 15 ms by bot id=8632955122
+2026-09-17 17:39:32,530 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 17:39:34,169 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 17:41:50,674 INFO     app.warlord.scheduler: === Начинаю цикл обновления карточек ===
+2026-09-17 17:41:50,675 INFO     app.warlord.scheduler: карточки стран: опубликовано 11
+2026-09-17 17:41:53,239 INFO     app.warlord.scheduler: тема 65881: прочитано 90, свежих 7
+2026-09-17 17:41:55,006 INFO     app.warlord.scheduler: тема 83064: прочитано 90, свежих 0
+2026-09-17 17:41:58,195 INFO     app.warlord.scheduler: тема 137535: прочитано 14, свежих 0
+2026-09-17 17:42:00,498 INFO     app.warlord.scheduler: тема 70799: прочитано 86, свежих 5
+2026-09-17 17:42:04,425 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Тормоза» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 17:42:06,043 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Шины» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 17:42:07,543 INFO     app.warlord.scheduler: вопрос админу отправлен: Встретил «Экипаж» (unknown). Кто/что это? Отвечать можно обычным текстом реплаем.
+2026-09-17 17:42:19,974 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Este» в новостях WARLORD RP?
+2026-09-17 17:42:23,488 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «Hypercar» в новостях WARLORD RP?
+2026-09-17 17:42:25,121 INFO     app.warlord.scheduler: вопрос админу отправлен: Что такое «LED-оптика» в новостях WARLORD RP?
+2026-09-17 17:42:25,124 INFO     app.warlord.scheduler: === Цикл завершён ===
+2026-09-17 17:43:53,480 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:45:04,687 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 17:45:08,217 INFO     telethon.client.updates: Got difference for channel 1237513492 updates
+2026-09-17 17:45:12,184 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 17:45:16,545 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 17:45:25,235 INFO     telethon.client.updates: Got difference for channel 2594105905 updates
+2026-09-17 17:45:32,234 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 17:46:04,088 INFO     aiogram.event: Update id=749253672 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:46:05,658 INFO     aiogram.event: Update id=749253673 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:46:05,658 INFO     aiogram.event: Update id=749253674 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:46:05,667 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:46:35,082 INFO     aiogram.event: Update id=749253675 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:46:37,512 INFO     aiogram.event: Update id=749253676 is handled. Duration 0 ms by bot id=8632955122
+2026-09-17 17:46:39,479 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:46:44,595 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 17:50:21,603 INFO     telethon.client.updates: Got difference for channel 3155005719 updates
+2026-09-17 17:54:34,001 INFO     telethon.client.updates: Got difference for channel 3743618941 updates
+2026-09-17 17:54:35,807 INFO     telethon.client.updates: Got difference for channel 2413256502 updates
+2026-09-17 18:00:06,892 INFO     telethon.client.updates: Got difference for channel 2883156814 updates
+2026-09-17 18:00:15,153 INFO     telethon.client.updates: Got difference for channel 3716703320 updates
+2026-09-17 18:00:18,003 INFO     telethon.client.updates: Got difference for channel 1310155678 updates
+2026-09-17 18:00:20,263 INFO     telethon.client.updates: Got difference for channel 2181425771 updates
+2026-09-17 18:00:33,671 INFO     telethon.client.updates: Got difference for channel 2221774633 updates
+2026-09-17 18:00:50,375 INFO     aiogram.event: Update id=749253677 is not handled. Duration 0 ms by bot id=8632955122
+2026-09-17 18:02:48,797 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 18:03:46,119 INFO     telethon.client.updates: Got difference for account updates
+2026-09-17 18:04:07,906 ERROR    aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-09-17 18:04:07,906 WARNING  aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8632955122)
+2026-09-17 18:04:11,961 INFO     aiogram.dispatcher: Connection established (tryings = 1, bot id = 8632955122)
+2026-09-17 18:04:11,965 INFO     aiogram.event: Update id=749253678 is handled. Duration 15 ms by bot id=8632955122
+2026-09-17 18:04:14,796 INFO     aiogram.event: Update id=749253680 is handled. Duration 2843 ms by bot id=8632955122
+2026-09-17 18:04:15,906 INFO     aiogram.event: Update id=749253681 is handled. Duration 3953 ms by bot id=8632955122
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\cards.py", line 240, in publish_country_card
+    await bot.edit_message_text(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 1569, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1101, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\xf6' in position 77: character maps to <undefined>
+Call stack:
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\bot.py", line 19, in <module>
+    sys.exit(run())
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\bot.py", line 9, in run
+    asyncio.run(main())
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\handlers.py", line 74, in cards_cmd
+    await scheduler.publish_all_cards(force=True)
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\scheduler.py", line 305, in publish_all_cards
+    return []
+  File "C:\Users\PC\Desktop\snoser-codex-deploy-bot-to-railway.app\app\warlord\cards.py", line 246, in publish_country_card
+    log.warning("edit country %s failed (%s); send new", country.get("name"), exc)
+Message: 'edit country %s failed (%s); send new'
+Arguments: ('Eisenfaust-K\xf6nigreich', TelegramBadRequest('Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message'))
+2026-09-17 18:04:19,225 WARNING  app.warlord.cards: edit country N.I.C.I.L.U.S. - Norvex Industrial Commercial International Logistical Unified State failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:21,969 WARNING  app.warlord.cards: edit country Аганимлэнд failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:24,785 WARNING  app.warlord.cards: edit country Балтослободия failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:27,383 WARNING  app.warlord.cards: edit country Видхельм failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:29,586 WARNING  app.warlord.cards: edit country Олбония failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:31,874 WARNING  app.warlord.cards: edit country Пупсонская Республика failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:34,083 WARNING  app.warlord.cards: edit country Республика Регио Декала failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:36,152 WARNING  app.warlord.cards: edit country ССШС (Союз Социалистических Штатов Сабзонии) failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:38,190 WARNING  app.warlord.cards: edit country Фаустланд failed (Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message); send new
+2026-09-17 18:04:40,382 WARNING  app.warlord.cards: edit country Фризенляндия failed (Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002446986804. Retry in 37 seconds.
+Original description: Too Many Requests: retry after 37
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)); send new
+2026-09-17 18:04:41,955 ERROR    app.warlord.scheduler: карточка страны Фризенляндия: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1002446986804. Retry in 35 seconds.
+Original description: Too Many Requests: retry after 35
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-09-17 18:04:41,955 INFO     app.warlord.scheduler: карточки стран: опубликовано 11

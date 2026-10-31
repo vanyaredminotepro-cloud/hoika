@@ -1,0 +1,32 @@
+﻿{% extends "base.html" %}
+
+{% block title %}WARLORD RP — Вход{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <div class="login-card">
+        <h1>🔐 WARLORD RP</h1>
+        <p style="color: #666; margin-bottom: 1.5rem;">Вход в веб-редактор статистики стран</p>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form method="POST">
+            <div class="form-group">
+                <label>Пароль администратора</label>
+                <input type="password" name="password" required autocomplete="current-password">
+            </div>
+            <button type="submit" class="btn btn-primary">Войти</button>
+        </form>
+
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: #666;">
+            Пароль задаётся переменной окружения <code>WARLORD_ADMIN_PASSWORD</code>
+        </p>
+    </div>
+</div>
+{% endblock %}

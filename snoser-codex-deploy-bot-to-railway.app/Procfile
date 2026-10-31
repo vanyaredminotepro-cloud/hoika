@@ -1,0 +1,2 @@
+bot: python -m app.warlord.main
+web: python -m app.webapp
